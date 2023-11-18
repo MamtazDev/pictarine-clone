@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "img": "https://img.icons8.com/ios/50/flag--v1.png",
+    "title": "We are born in the USA!",
+    "text": "So, notre app est seulement disponible aux Etats-Unis (pour l'instant...). Mais la team, elle, est bien installée à Toulouse."
+  },
+  {
+    "id": 2,
+    "img": "https://img.icons8.com/ios-glyphs/30/smartphone--v1.png",
+    "title": "Une app par partenaire",
+    "text": "Une pour Walgreens, une pour CVS et une pour Walmart. Et chacune disponible sur Android, iOS et Web. Pour une expérience sur mesure."
+  },
+  {
+    "id": 3,
+    "img": "https://img.icons8.com/ios/50/shopping-bag--v1.png",
+    "title": "Click & Collect",
+    "text": "Vos photos sont imprimées en 1 heure et il n'y a plus qu'à les récupérer dans votre magasin Walmart, Walgreens ou CVS le plus proche."
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "logo": "https://a.storyblok.com/f/189744/320x324/be5bffd1df/div-5.png",
+    "title": "Admin",
+    "text": "Tous les outils de l’admin nous ont permis de créer une machine de guerre marketing pour cibler les meilleurs utilisateurs possibles !"
+  },
+  {
+    "id": 2,
+    "logo": "https://a.storyblok.com/f/189744/320x324/f4ce2d8063/div-3.png",
+    "title": "App Ninja",
+    "text": "Grâce à App Ninja, l’équipe de Pictarine peut lire et répondre à chaque avis sur nos applications Android et iOS sans se connecter à l’App Store Connect ou à la Google Play Console depuis l’application Slack."
+  },
+  {
+    "id": 3,
+    "logo": "https://a.storyblok.com/f/189744/320x324/60fd86abfa/div-4.png",
+    "title": "Snip",
+    "text": "Snip est une application de gestion d’extraits de code légère pour macOS. Entièrement écrit en SwiftUI, Snip prend en charge plus de 100 langages de programmation, la synchronisation GitHub gist et l’aperçu HTML / Markdown."
+  },
+  {
+    "id": 4,
+    "logo": "https://a.storyblok.com/f/189744/320x324/1db751194d/image.png",
+    "title": "Trognon",
+    "text": "L’app Slack Trognon permet en temps réel d’avoir un update Slack du statut d’une app. Elle est basée sur l’API App Store Connect."
+  },
+  {
+    "id": 5,
+    "logo": "https://a.storyblok.com/f/189744/320x324/3b99df5b3b/div.png",
+    "title": "BigQuery",
+    "text": "Notre extension BigQuery permet d’afficher le coût d’une query avant de la lancer. Ce projet est public et open source."
+  },
+  {
+    "id": 6,
+    "logo": "https://a.storyblok.com/f/189744/320x324/beea1e23d6/div-2.png",
+    "title": "Release Note Now",
+    "text": "Automatic Release Note Generator for GitHub projects. Cet outil a été extrait pour être publié comme un projet Open Source sur Github."
+  },
+  {
+    "id": 7,
+    "logo": "https://a.storyblok.com/f/189744/320x324/44b2092250/div-1.png",
+    "title": "Today’s Widget",
+    "text": "Today’s Widget est un widget météo simple et rapide pour l’écran d’accueil de l’iPhone. Il fonctionne sur tous les appareils iOS/iPadOS fonctionnant actuellement sous iOS 14+."
+  }
+]

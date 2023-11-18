@@ -1,0 +1,286 @@
+.max-width {
+  max-width: 1660px;
+  margin: auto;
+}
+
+img {
+  object-fit: cover;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.Logo {
+  width: 200px;
+}
+
+a {
+  color: black;
+  text-decoration: inherit;
+}
+
+body {
+  font-family: Mulish;
+}
+
+/* a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #db3753;
+  transition: all 0.2s ease-in-out;
+} */
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  cursor: pointer;
+}
+
+.section-padding {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+@media(max-width: 550px) {
+  .section-padding {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+.fs_14 {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.fs_40px {
+  font-size: 40px;
+  line-height: 50px;
+}
+
+@media(max-width: 550px) {
+  .fs_40px {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+.fs_60 {
+  font-size: 60px;
+  line-height: 70px;
+}
+
+@media(max-width: 550px) {
+  .fs_60 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+.fs_70 {
+  font-size: 70px;
+  line-height: 80px;
+}
+
+@media(max-width: 550px) {
+  .fs_70 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+}
+
+/* Slider Css */
+.slick-prev,
+.slick-next {
+  z-index: 9999;
+}
+
+.custom_slidr {
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+
+.custom_slidr .slick-prev:before,
+.custom_slidr .slick-next:before,
+.multi_slider .slick-prev:before,
+.multi_slider .slick-next:before {
+  color: #db3753 !important;
+  opacity: 100 !important;
+  font-size: 3rem !important;
+}
+
+.centered_slider {
+  padding-bottom: 200px;
+}
+
+.centered_slider img {
+  height: 300px;
+  width: 290px;
+  margin: 10px;
+}
+
+.multiRows_slider img {
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+}
+
+.multi_slider {
+  padding-bottom: 100px;
+}
+
+.multi_slider img {
+  height: 550px;
+  width: 90%;
+}
+
+.multi_slider .slick-prev,
+.multi_slider .slick-next {
+  bottom: 0 !important;
+  top: unset !important;
+}
+
+.multi_slider .slick-prev {
+  left: 0 !important;
+}
+
+.multi_slider .slick-next {
+  right: 0 !important;
+}
+
+.top {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.bottom {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.multiRows_slider {
+  padding-bottom: 200px;
+}
+
+.swiper-wrapper {
+  text-align: center;
+}
+
+
+.multi_slider .custom-next-arrow {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #db3753;
+  color: white;
+}
+
+.multi_slider .custom-prev-arrow {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #db3753;
+  color: white;
+  z-index: 999;
+}
+
+.multiRows_slider .slick-prev {
+  position: absolute;
+  left: 45%;
+}
+
+.multiRows_slider .slick-next {
+  position: absolute;
+  right: 46%;
+}
+
+.multiRows_slider .slick-dots {
+  left: -12px;
+}
+
+.multiRows_slider .slick-prev:before,
+.multiRows_slider .slick-next:before {
+  font-family: 'slick';
+  font-size: 20px;
+  line-height: 1;
+  opacity: .75;
+  color: rgb(0, 0, 0);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  bottom: -1845%;
+}
+
+/* Custom CSS */
+.slick-slide {
+  transition: transform 0.3s ease-in-out;
+}
+
+.slick-center {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.centered_slider .swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  left: 21px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.centered_slider .slick-prev:before {
+  content: url(../src/assets/prev_arrow.png);
+  color: #007aff;
+  font-size: 80px;
+  left: 30px;
+  line-height: 0;
+}
+
+.centered_slider .slick-next {
+  right: 23px !important;
+}
+
+.centered_slider .slick-prev {
+  left: -18px !important;
+}
+
+.centered_slider .slick-next:before {
+  content: url(../src/assets/right_arrow.png);
+  color: #007aff;
+  font-size: 80px;
+  right: 30px;
+  line-height: 0;
+}
+
+.centered_slider .swiper-button-next {
+  position: absolute;
+  top: 50%;
+  right: 21px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.mySwiper .swiper-slide {
+  width: 662px !important;
+}
+
+.mySwiper .swiper-3d .swiper-slide-shadow-left {
+  background-image: none !important;
+
+}

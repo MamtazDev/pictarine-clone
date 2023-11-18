@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Suivi & Feedbacks",
+    "sentence": "On encourage à faire du feedback sur tout. Tu as un suivi perso et pro chaque semaine par ton manager grâce à un 1-1."
+  },
+  {
+    "id": 2,
+    "title": "Exploration",
+    "sentence": "On est en constante remise en question, toujours en quête de nouveaux marchés à conquérir. C’est l’occasion pour toi de continuellement t’amuser sur de nouveaux projets !"
+  },
+  {
+    "id": 3,
+    "title": "Partage & Apprentissage",
+    "sentence": "Conférences internes, Meetups, etc... On est toujours là pour apprendre les uns des autres en partageant nos savoirs-faire."
+  },
+  {
+    "id": 4,
+    "title": "Comme à la maison",
+    "sentence": "Des snacks, des fruits et boissons sont à dispo. Attention, il n’y a pas que du healthy !"
+  },
+  {
+    "id": 5,
+    "title": "Flexibilité",
+    "sentence": "On est ouverts au remote plusieurs fois par semaine, en fonction de l'organisation de l'équipe et les horaires sont souples pour s’adapter à la vie personnelle de chacun."
+  },
+  {
+    "id": 6,
+    "title": "Package rémunération",
+    "sentence": "Mutuelle prise en charge à 100%, RTT, intéressement, BSPCE, Prime Vacances, Carte Cadeaux de Noël... et bien plus !"
+  },
+  {
+    "id": 7,
+    "title": "De l'animation",
+    "sentence": "Meetups, séminaires, lancer de hache, concours de gâteaux, cours de sport, massages, soirées LAN, soirées cuisine..."
+  }
+]

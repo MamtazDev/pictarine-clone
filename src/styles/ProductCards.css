@@ -1,0 +1,17 @@
+.product-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #e6eef0;
+  padding: 1rem 1rem;
+
+  & h2 {
+    font-size: 26px;
+    font-weight: 700;
+  }
+
+  & img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+}

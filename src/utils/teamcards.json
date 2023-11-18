@@ -1,0 +1,566 @@
+[
+  {
+    "id": 1,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/84ac6094a7/guillaume.jpeg/m/600x0",
+    "name": "Guillaume",
+    "job": "CEO/CPO",
+    "hobbies": [
+      "J'♥ les Jalapenos 🌶",
+      "Côte de boeuf - bourgogne ♥ 🍷",
+      "Je joue de l'orchestre 🎻",
+      "Je hais les weekends pluvieux 🌧"
+    ]
+  },
+  {
+    "id": 2,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/466526d0c3/masc.jpeg/m/600x0",
+    "name": "Max",
+    "job": "CMO",
+    "hobbies": [
+      "J'♥ le fromage fondu 🧀",
+      "Je suis un fan de tennis 🎾",
+      "J'♥ faire du python 🐍",
+      "Je n'aime pas finir mes"
+    ]
+  },
+  {
+    "id": 3,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/1f1dfea918/francois.jpeg/m/600x0",
+    "name": "François",
+    "job": "CTO",
+    "hobbies": [
+      "J'♥ les sneakers 👟",
+      "Je suis un fan de LEGO 🧱",
+      "Je suis éleveur de dev",
+      "Je n'aime pas manger healthy 🥦"
+    ]
+  },
+  {
+    "id": 4,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/49e996e6a8/anthony.jpeg/m/600x0",
+    "name": "Anthony",
+    "job": "Engineering Manager Web",
+    "hobbies": [
+      "J'aime les piments 🌶",
+      "J'adore la plongée sous-marine 🤿",
+      "Je suis un couteau suisse 🧑‍🔧",
+      "Je déteste m'ennuyer 🥱"
+    ]
+  },
+  {
+    "id": 5,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/c54fecf753/quentin.jpeg/m/600x0",
+    "name": "Quentin",
+    "job": "PM Manager",
+    "hobbies": [
+      "J'♥ la photo 📸",
+      "Je suis musicien 🎸",
+      "Je maitrise la data 📊",
+      "Je déteste les twingos 🚗"
+    ]
+  },
+  {
+    "id": 6,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/8880d019cb/meghan.jpeg/m/600x0",
+    "name": "Meghan",
+    "job": "Partnership Manager",
+    "hobbies": [
+      "J'♥ l'accord mets/vins 🍷",
+      "I ♥ z'YouTubers bricolos",
+      "Je rêve toujours + grand 🗻",
+      "Je hais avoir trop chaud 🥵"
+    ]
+  },
+  {
+    "id": 7,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/58007671d5/rachel.jpeg/m/600x0",
+    "name": "Rachel",
+    "job": "Lead People Admin",
+    "hobbies": [
+      "J'♥ la Méditerranée 🌊",
+      "J'adore le septième art 🎬",
+      "Le langage juridique ne me rebute pas 📜",
+      "Je déteste les tripes 🤮"
+    ]
+  },
+  {
+    "id": 8,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/d91abe8b3c/lukas.jpeg/m/600x0",
+    "name": "Lukas",
+    "job": "Lead Web Developer",
+    "hobbies": [
+      "J'♥ la mécanique 🛠️",
+      "Old motorcycle and VW lover 🏍️",
+      "Senior Ouebmaster 🕸️",
+      "Je hais tomber en panne"
+    ]
+  },
+  {
+    "id": 9,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/613530d053/leah.jpeg/m/600x0",
+    "name": "Leah",
+    "job": "Brand Content Specialist",
+    "hobbies": [
+      "J'♥ patiner sur la glace 🎿",
+      "Connaisseuse de brunch 🥞",
+      "Bilingue content creator 🗣️",
+      "Je n'aime pas les décisions 🤔"
+    ]
+  },
+  {
+    "id": 10,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/3792e62e20/benjamin.jpeg/m/600x0",
+    "name": "Benjamin",
+    "job": "Engineering Manager Backend",
+    "hobbies": [
+      "J'♥ la montagne 🏔",
+      "I ♥ les jeux de plateau 🎲",
+      "Je bricole sur la prod 🛠",
+      "Je fuis l'aléatoire 🏃"
+    ]
+  },
+  {
+    "id": 11,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/eaa8f99b97/morgane.jpeg/m/600x0",
+    "name": "Morgane",
+    "job": "Creative Lead",
+    "hobbies": [
+      "Je suis accro aux voyages 🌍",
+      "Fan de créationS 🎨",
+      "Designer multi-taches 🎨",
+      "Je hais parler en public 🙈"
+    ]
+  },
+  {
+    "id": 12,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/89a2c503ea/julien.jpeg/m/600x0",
+    "name": "Julien",
+    "job": "Lead Backend Developer",
+    "hobbies": [
+      "J'♥ les sports co 🏀",
+      "J'adore les jeux vidéo 🎮",
+      "Créateur d'outils & APIs 📡",
+      "Je n'aime pas les haribos 🍬"
+    ]
+  },
+  {
+    "id": 13,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/6e1c0f59d8/barbara.jpeg/m/600x0",
+    "name": "Barbara",
+    "job": "Head of Finance",
+    "hobbies": [
+      "J'♥ lire des romans 📚",
+      "Je vis pour Broadway 🎭",
+      "Je dompte Excel 🐉",
+      "Je déteste le tabac 🚬"
+    ]
+  },
+  {
+    "id": 14,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/bece82a44d/benoit.jpeg/m/600x0",
+    "name": "Benoit",
+    "job": "Design Manager",
+    "hobbies": [
+      "J'♥ le cinéma et la photo 🎬",
+      "Passionné de jeux et de guitare 🎸",
+      "Je suis le pro du proto 🤓",
+      "Je déteste les oignons 🧄"
+    ]
+  },
+  {
+    "id": 15,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/109fd1401e/alice.jpeg/m/600x0",
+    "name": "Alice",
+    "job": "Growth Marketing Manager",
+    "hobbies": [
+      "J'♥ le slow coffee ☕",
+      "J'♥ la déco d'intérieur 🖼️",
+      "Je dépense des 💰 chez les GAFA",
+      "Je n'aime pas me lever tôt 🌅"
+    ]
+  },
+  {
+    "id": 16,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/7c7036a145/mikhail.jpeg/m/600x0",
+    "name": "Mikhail",
+    "job": "Lead Developer Android",
+    "hobbies": [
+      "J'♥ les randos 🥾",
+      "J'adore voyager 🌍",
+      "Je parle Kotlin couramment 👨‍💻",
+      "Je déteste tomber en ski 🎿"
+    ]
+  },
+  {
+    "id": 17,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/8513f78847/marine.jpeg/m/600x0",
+    "name": "Marine",
+    "job": "People Development Partner",
+    "hobbies": [
+      "J'♥ le ski 🎿",
+      "Passionnée de danse 🕺",
+      "Je déniche les talents",
+      "Je n'aime pas le poisson 🐟"
+    ]
+  },
+  {
+    "id": 18,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/4f2a7ac53f/matteo.jpeg/m/600x0",
+    "name": "Matteo",
+    "job": "iOS Developer",
+    "hobbies": [
+      "J'♥ les mets mexicains 🌮",
+      "Fan de la musique des 70' 🎶",
+      "Je pousse la 3D 🤯",
+      "Je n'aime pas les chiens 🐶"
+    ]
+  },
+  {
+    "id": 19,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/b897ad987e/julia.jpeg/m/600x0",
+    "name": "Julia",
+    "job": "Product Designer",
+    "hobbies": [
+      "J'♥ le jardinage 🌱",
+      "Je ne m'ennuie jamais 😴",
+      "J'explore la limite du design 🤯",
+      "Je n'aime pas le froid 🥶"
+    ]
+  },
+  {
+    "id": 20,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/ef39ebd2cb/gabriel.jpeg/m/600x0",
+    "name": "Gabriel",
+    "job": "CEO/CPO",
+    "hobbies": [
+      "J'♥ lire et voyager 📚",
+      "J'adore les activités créatives 🎨",
+      "Concepteur des UI Android",
+      "Je hais la malhonnêteté, le bruit 🚨"
+    ]
+  },
+  {
+    "id": 21,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/4c571fdab5/emilie.jpeg/m/600x0",
+    "name": "Emilie",
+    "job": "Brand Project Coordinator",
+    "hobbies": [
+      "J'♥ les sushis avec sauce sucrée",
+      "J'adore la rando & voyager 🌍",
+      "Facebook et Insta n'ont pas de secret pour moi 🤫",
+      "Je n'aime pas les lentilles 🥫"
+    ]
+  },
+  {
+    "id": 22,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/c0b3c03fc7/elodiep.jpeg/m/600x0",
+    "name": "Elodie",
+    "job": "Head of People",
+    "hobbies": [
+      "J'♥ le sirop d’érable 🇨🇦",
+      "J'adore les cactus 🌵",
+      "Communication et écoute 🗣",
+      "Je déteste courir 🏃"
+    ]
+  },
+  {
+    "id": 23,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/283bd9a525/elodief.jpeg/m/600x0",
+    "name": "Elodie",
+    "job": "Financial Controller",
+    "hobbies": [
+      "J'adore la randonnée ⛰",
+      "Passionnée de Handball 🏐",
+      "Excel n'a pas de secret pour moi",
+      "Je déteste la coriandre 🌿"
+    ]
+  },
+  {
+    "id": 24,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/5d9bcd858b/kahina.jpeg/m/600x0",
+    "name": "Kahina",
+    "job": "Partnership Developer",
+    "hobbies": [
+      "J'adore la bonne cuisine 🍽",
+      "I ❤️ les nouveaux endroits 🌍",
+      "Je suis un caméléon 🦎",
+      "Je déteste le melon 🍈"
+    ]
+  },
+  {
+    "id": 25,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/91aa643043/marie.jpeg/m/600x0",
+    "name": "Marie",
+    "job": "Engineering Manager Data",
+    "hobbies": [
+      "J'aime marcher longtemps 🚶",
+      "I ❤️ trail 🏃",
+      "Faire des découvertes",
+      "Je déteste la solitude 🙁"
+    ]
+  },
+  {
+    "id": 26,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/bc6d73c7ef/mael.jpeg/m/600x0",
+    "name": "Mael",
+    "job": "User Researcher",
+    "hobbies": [
+      "J'aime les jeux vidéos 🎮",
+      "I ❤️ la musique 🎵",
+      "Chercheur passionné ! 🧐",
+      "Je déteste attendre ⌛"
+    ]
+  },
+  {
+    "id": 27,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/408439e9ec/maxime.jpeg/m/600x0",
+    "name": "Maxime",
+    "job": "Engineering Manager Mobile",
+    "hobbies": [
+      "J'aime les chats 🐱",
+      "J'adore les jeux vidéo 👾",
+      "Je touche à tout 👈",
+      "Je déteste le matin ⏰"
+    ]
+  },
+  {
+    "id": 28,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/a04039f519/elie.jpeg/m/600x0",
+    "name": "Elie",
+    "job": "Backend Developer",
+    "hobbies": [
+      "J'adore prendre le soleil 🇷🇪",
+      "J'♥ les sorties vélos 🚲",
+      "Je veux tout automatiser 😂",
+      "Je déteste rester ignorant ❌"
+    ]
+  },
+  {
+    "id": 29,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/e59873ebb6/flore.jpeg/m/600x0",
+    "name": "Flore",
+    "job": "Product Manager",
+    "hobbies": [
+      "J'aime voyager 🌍",
+      "J'adore rencontrer des nouvelles personnes 🤝",
+      "J'échange et j'organise 📝",
+      "Je déteste les pieds 🦶"
+    ]
+  },
+  {
+    "id": 30,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/57b9815442/kevin.jpeg/m/600x0",
+    "name": "Kevin",
+    "job": "Senior Web Developer",
+    "hobbies": [
+      "J'aime la campagne 🌍",
+      "J'adore les énigmes 🧩",
+      "Je mets en forme les données 📊",
+      "Je n'aime pas les champignons 🍄"
+    ]
+  },
+  {
+    "id": 31,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/7dfbd12d5f/mathilda.jpeg/m/600x0",
+    "name": "Mathilda",
+    "job": "Lead User Researcher",
+    "hobbies": [
+      "J'aime baby Yoda 🥹",
+      "J'adore le surf 🏄‍♀️",
+      "Je pose les bonnes questions 🤔",
+      "Je déteste le poisson 🐟"
+    ]
+  },
+  {
+    "id": 32,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/80e3164093/laurie.jpeg/m/600x0",
+    "name": "Laurie",
+    "job": "Graphic Designer 360",
+    "hobbies": [
+      "J'aime l'odeur des livres 📚",
+      "J'adore fabriquer 🛠",
+      "Je donne vie au graphisme 🎨",
+      "Je déteste l'irrespect 🤬"
+    ]
+  },
+  {
+    "id": 33,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/e94b067bc5/anais.jpeg/m/600x0",
+    "name": "Anais",
+    "job": "Business Controller",
+    "hobbies": [
+      "Je suis accro aux voyages 🌍",
+      "J'♥ les blind test 🎶",
+      "J'explore les chiffres 📊",
+      "Je déteste m'ennuyer 😴"
+    ]
+  },
+  {
+    "id": 34,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/8aca4d0d71/chris.jpeg/m/600x0",
+    "name": "Chris",
+    "job": "Senior Backend Developer",
+    "hobbies": [
+      "J'aime manger très épicé 🌶️",
+      "J'adore l'escalade 🧗",
+      "Je suis curieux de nature 🕵️",
+      "Je déteste l'hypocrisie 🤐"
+    ]
+  },
+  {
+    "id": 35,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/81945a61cc/sylvie.jpeg/m/600x0",
+    "name": "Sylvie",
+    "job": "Workplace Coordinator",
+    "hobbies": [
+      "J'♥ cuisiner & manger 🤤",
+      "J'adore le tricot et le crochet 👵",
+      "Je suis serviable ☀️",
+      "Je hais l'absence de clignotant 🚗"
+    ]
+  },
+  {
+    "id": 36,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/5b41295547/mariem.jpeg/m/600x0",
+    "name": "Marie",
+    "job": "Brand Manager",
+    "hobbies": [
+      "J'♥ les magnums aux amandes 🍦",
+      "J'adore me baigner dans des lacs",
+      "Je gère plusieurs projets 🤹‍♀️",
+      "Je déteste les pédiluves 👣"
+    ]
+  },
+  {
+    "id": 37,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/67a30ba08f/cecile.jpeg/m/600x0",
+    "name": "Cecile",
+    "job": "Web Developer",
+    "hobbies": [
+      "J'aime cruiser en longboard 🛹",
+      "J'adore les chiens saucisse 🌭",
+      "J'apprends au quotidien 📚",
+      "Je déteste les choux de Bruxelles 🤢"
+    ]
+  },
+  {
+    "id": 38,
+    "img": "https://a.storyblok.com/f/189744/1280x1280/72d8e0c818/alan.jpeg/m/600x0",
+    "name": "Alan",
+    "job": "Lead Exploration",
+    "hobbies": [
+      "J'aime les sports de glisse 🏂",
+      "J'adore les jeux vidéo 🎮",
+      "Je bouillonne d'idées 👨‍🔬",
+      "Je déteste le manque d'humilité 😑"
+    ]
+  },
+  {
+    "id": 39,
+    "img": "https://a.storyblok.com/f/189744/512x512/98eaa745d6/sybille.jpeg/m/600x0",
+    "name": "Sybille",
+    "job": "Acquisition Specialist",
+    "hobbies": [
+      "J'aime les karaokés 🎤",
+      "J'♥ les activités manuelles 🎨",
+      "Je fais de la publicité 📣",
+      "Je n'aime pas le conflit 🥊"
+    ]
+  },
+  {
+    "id": 40,
+    "img": "https://a.storyblok.com/f/189744/512x512/7f008a3313/quentin.jpeg/m/600x0",
+    "name": "Quentin",
+    "job": "Web Developer",
+    "hobbies": [
+      "J'aime les desserts 🍰",
+      "L'escalade 🧗",
+      "La peinture et les paillettes ✨",
+      "Le bruit quand je veux dormir 💤"
+    ]
+  },
+  {
+    "id": 41,
+    "img": "https://a.storyblok.com/f/189744/512x512/693e2c9dee/theo.jpeg/m/600x0",
+    "name": "Theo",
+    "job": "QA Testeur",
+    "hobbies": [
+      "J'aime les poivrons 🫑",
+      "J'adore les jeux de rôles papier 🎲",
+      "Passionné par tout 🙌",
+      "Je n'aime pas les chats 😾"
+    ]
+  },
+  {
+    "id": 42,
+    "img": "https://a.storyblok.com/f/189744/2800x2800/a8a64c67a3/ihor.jpg/m/600x0",
+    "name": "Ihor",
+    "job": "SEO",
+    "hobbies": [
+      "Apprendre de nouvelles langues 🤓",
+      "NBA 🏀",
+      "Je fais de la voyance via Google.com 🔮",
+      "Les petites polices de caractère & les dentifrices non mentholés 🦷"
+    ]
+  },
+  {
+    "id": 43,
+    "img": "https://a.storyblok.com/f/189744/2800x2800/e98dae501a/cyril.jpg/m/600x0",
+    "name": "Cyril",
+    "job": "Backend Developer",
+    "hobbies": [
+      "J'aime manger les fruits surgelés 🍉",
+      "J'adore les romans naturalistes 📖",
+      "J'ai une bonne vue d'ensemble 👀",
+      "Je déteste les bruits de bouche 🤢"
+    ]
+  },
+  {
+    "id": 44,
+    "img": "https://a.storyblok.com/f/189744/2800x2800/7adee326a1/alexis.jpg/m/600x0",
+    "name": "Alexis",
+    "job": "Business Developer",
+    "hobbies": [
+      "J'aime découvrir de nouvelles cuisines 🧑‍🍳",
+      "L'univers et l'infiniment grand 🪐",
+      "Le contact humain 👋",
+      "Je déteste les moustiques 🦟"
+    ]
+  },
+  {
+    "id": 45,
+    "img": "https://a.storyblok.com/f/189744/2800x2800/b762b21c27/alejandra.jpg/m/600x0",
+    "name": "Alejandra",
+    "job": "Talent Acquisition Officer",
+    "hobbies": [
+      "J'aime les plans douillets 🛌",
+      "Danser la salsa 💃",
+      "Je suis à l'écoute 🦻",
+      "Les araignées 🕷️"
+    ]
+  },
+  {
+    "id": 46,
+    "img": "https://a.storyblok.com/f/189744/2800x2800/382b13b294/lamprini.jpg/m/600x0",
+    "name": "Lamprini",
+    "job": "User Researcher",
+    "hobbies": [
+      "J'aime le fromage 🧀",
+      "Faire de la patisserie 🍰",
+      "Je suis curieuse 👀",
+      "Les journées nuageuses ☁️"
+    ]
+  },
+  {
+    "id": 47,
+    "img": "https://a.storyblok.com/f/189744/2800x2800/8f58236e89/solene.jpg/m/600x0",
+    "name": "Solene",
+    "job": "Product Manager",
+    "hobbies": [
+      "J'❤️ organiser des surprises",
+      "🏃🏽‍♀️ Courir plus pour manger plus 🍔",
+      "On peut compter sur ma fiabilité 🤝",
+      "💔 Les shamallows grillés 🤢"
+    ]
+  }
+]

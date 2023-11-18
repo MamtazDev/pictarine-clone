@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "img": "https://a.storyblok.com/f/189744/1504x1000/559bd0db77/maddyness-pictarine.jpg/m/800x0",
+    "logo": "https://a.storyblok.com/f/189744/612x120/9165296e3d/maddyness-logo-vector-1.png",
+    "text": "Pictarine, la startup française qui fait 40 millions d’euros de volume d'affaires aux États-Unis et 0€ en France.",
+    "link": "https://www.maddyness.com/2022/12/01/pictarine-photo/"
+  },
+  {
+    "id": 2,
+    "img": "https://a.storyblok.com/f/189744/1504x1000/9de254d5bc/lesechos-pictarine.jpg/m/800x0",
+    "logo": "https://a.storyblok.com/f/189744/623x120/1b0e17d6da/logo-lesechos-entrepreneurs-1.png",
+    "text": "Après les Etats-Unis, Pictarine veut imprimer les photos en Europe.",
+    "link": "https://business.lesechos.fr/entrepreneurs/actu/0603883369722-apres-les-etats-unis-pictarine-veut-imprimer-les-photos-en-europe-339640.php"
+  },
+  {
+    "id": 3,
+    "img": "https://a.storyblok.com/f/189744/1504x1000/92ab60a8d0/searchads-pictarine.jpg/m/800x0",
+    "logo": "https://help.dfinery.io/hc/article_attachments/360032034474/apple_search_ads.png",
+    "text": "Customers print memories.Pictarine grows conversions.",
+    "link": "https://searchads.apple.com/success-stories/pictarine"
+  }
+]

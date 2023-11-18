@@ -1,0 +1,119 @@
+.custom_slidr .slick-dots {
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.custom_slidr .slick-dots::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #1c1c1c;
+    position: absolute;
+    left: 0;
+    top: 8px;
+    z-index: -11;
+}
+
+.custom_slidr .slick-dots li::before {
+    position: absolute;
+    top: 20px;
+    left: -10px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.custom_slidr .slick-dots li button:before {
+    border-radius: 50%;
+    line-height: 22px;
+    font-size: 8px;
+    opacity: 100;
+    top: -1px;
+}
+
+.custom_slidr .slick-dots li.slick-active button:before {
+    background-color: #db3753;
+    color: white;
+    opacity: 100;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.custom_slidr .slick-dots li:nth-child(1)::before {
+    content: "2012";
+}
+
+.custom_slidr .slick-dots li:nth-child(2)::before {
+    content: "2013";
+}
+
+.custom_slidr .slick-dots li:nth-child(3)::before {
+    content: "2016";
+}
+
+.custom_slidr .slick-dots li:nth-child(4)::before {
+    content: "2019";
+}
+
+.custom_slidr .slick-dots li:nth-child(5)::before {
+    content: "2020";
+}
+
+.custom_slidr .slick-dots li:nth-child(6)::before {
+    content: "2021";
+}
+
+.custom_slidr .slick-dots li:nth-child(7)::before {
+    content: "2023";
+}
+
+.custom_slidr .slick-prev {
+    left: -35px;
+}
+
+.custom_slidr .slick-next {
+    right: -35px;
+}
+
+.custom_slidr .slick-prev:before,
+.custom_slidr .slick-next:before {
+    color: #db3753;
+    font-size: 30px;
+}
+
+.custom-arrows button {
+    font-family: unset;
+    font-size: unset;
+    width: 38px;
+    border-radius: 50%;
+    border: 0;
+    background-color: transparent;
+}
+
+.custom-arrows .leftArrow {
+    left: 13%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 999;
+}
+
+.custom-arrows .rightArrow {
+    right: 13%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 999;
+}
+
+
+
+.custom-arrows .sliderArrowActive svg {
+    fill: #db3753;
+    color: white;
+}
+
+.custom-arrows .sliderArrowDisable svg {
+    /* background-color: #db375294; */
+    color: white;
+    fill: #db375279;
+}

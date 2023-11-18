@@ -1,0 +1,80 @@
+@font-face {
+  font-family: Mulish;
+  src: url(../fonts/Mulish-VariableFont_wght.ttf) format("truetype");
+}
+.g-container-cards-problemsolvers {
+  margin-top: 3rem;
+  margin-bottom: 10rem;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  & img {
+    width: 50px;
+    height: 50px;
+  }
+
+  & span {
+    font-size: 20px;
+    font-family: Mulish;
+    font-weight: 700;
+  }
+}
+
+.container-problemsolvers {
+  background-color: #2b2b2b;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+
+  & p {
+    font-weight: 400;
+    font-family: Mulish;
+    font-size: 16px;
+  }
+}
+.container-problemsolvers-p {
+  background-color: #2b2b2b;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+  & p {
+    font-weight: 800;
+    font-family: Mulish;
+    font-size: 16px;
+  }
+}
+
+.first-card-problemsolvers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: .5rem;
+  & h3 {
+    font-size: 30px;
+  }
+  & p {
+    font-weight: 400;
+    font-family: Mulish;
+    font-size: 18px;
+  }
+}
+
+.last-block-problemsolvers {
+  grid-row: 3 / span 1;
+  grid-column: 3 / span 2;
+  background-color: transparent;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: right;
+}

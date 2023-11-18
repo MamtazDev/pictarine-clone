@@ -1,0 +1,265 @@
+.g-container-padding {
+    padding: 3rem 0;
+}
+
+.g-first-block-partnerships {
+    display: flex;
+
+    & img {
+        width: 725px;
+        height: 622px;
+    }
+}
+
+.first-block-partnerships {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 5rem;
+    text-align: left;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.second-block-partnerships {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.grid-logos-partneships {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding-top: 3rem;
+    margin-bottom: 8rem;
+
+    & img {
+        width: 100%;
+        height: 101px;
+    }
+}
+
+.g-third-block-partnerships {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 2rem;
+    gap: 2rem;
+}
+
+@media(max-width: 990px) {
+    .g-third-block-partnerships {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.g-container-partnerships-card {
+    background-color: #e6eef0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.container-partnerships-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+    padding: 1rem 6rem;
+
+    & img {
+        width: 100%;
+    }
+}
+
+@media(max-width: 990px) {
+    .container-partnerships-card img {
+        width: 25% !important;
+    }
+}
+
+.last-block-partnerships {
+    grid-row: 0 / span 2;
+    grid-column: 3 / span 2;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
+    gap: 20px;
+}
+
+.g-container-greybackground-partnerships {
+    background-color: #f8f8f8;
+    padding-top: 6rem;
+    margin-top: 6rem;
+}
+
+.g-whypartner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+/* .whypartner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 43%;
+} */
+
+.pictures-whypartner {
+    display: flex;
+    gap: 40px;
+
+    & img {
+        width: 100%;
+        height: 521px;
+    }
+}
+
+.right-block-pictures-whypartner {
+    background-color: white;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    & p {
+        font-style: italic;
+    }
+}
+
+.g-right-block-pictures-whypartner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.last-block-greybackground {
+    display: flex;
+    padding: 4rem 10rem;
+    gap: 4rem;
+
+    & img {
+        object-fit: contain;
+        width: 50px;
+        height: 69px;
+    }
+}
+
+.g-container-padding-2 {
+    padding: 3rem 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    & h2 {
+        text-align: center;
+    }
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+
+    & input {
+        background-color: #f5f8fa;
+        width: 100%;
+        height: 45px;
+        padding: 1rem;
+        border: solid 1px#ede7e7;
+    }
+
+    #partnerType {
+        background-color: #f5f8fa;
+        width: 100%;
+        height: 45px;
+        /* padding: 1rem; */
+        border: solid 1px#ede7e7;
+        border-radius: 8px;
+    }
+
+    & label {
+        font-size: 15px;
+
+        & span {
+            color: red;
+        }
+    }
+}
+
+.g-container-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-bottom: 5rem;
+}
+
+.form-btn {
+    margin: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    line-height: 12px;
+    position: relative;
+    text-align: center;
+    transition: all 0.15s linear;
+    background-color: #ff7a59;
+    border-color: #ff7a59;
+    color: #fff;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 14px;
+    padding: 15px 28px;
+    /* width: 10%; */
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.hubspot-pub {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    & img {
+        width: 30px;
+        height: 30px;
+        object-fit: contain;
+    }
+
+    & span {
+        color: cornflowerblue;
+        cursor: pointer;
+        font-family: Helvetica;
+    }
+}
+
+
+.last_block .partnerships-card img {
+    width: 10%;
+
+}
+
+@media(max-width: 990px) {
+    .partnership_img {
+        text-align: center;
+    }
+
+    .partnership_img img {
+        width: 50%;
+    }
+}

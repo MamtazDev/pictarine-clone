@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "logo": "https://a.storyblok.com/f/189744/121x148/d38a9d0fd9/apple.png",
+    "title": "iOS",
+    "tags": [
+      "Modern Concurrency",
+      "Swift Package Manager",
+      "The Composable Architecture"
+    ],
+    "stacklogo": [
+      "https://a.storyblok.com/f/189744/256x256/7f9ca4d29a/swift_logo.png",
+      "https://a.storyblok.com/f/189744/257x256/6d46e1c6c6/icons8-swiftui.png"
+    ]
+  },
+  {
+    "id": 2,
+    "logo": "https://a.storyblok.com/f/189744/148x167/f3cf76adf4/android-1.png",
+    "title": "Android",
+    "tags": ["Android JetPack", "Coroutines", "MVVM"],
+    "stacklogo": [
+      "https://a.storyblok.com/f/189744/256x257/a587dc29d7/kotlin-1-2.png"
+    ]
+  },
+  {
+    "id": 3,
+    "logo": "https://a.storyblok.com/f/189744/212x156/5932dc4eea/frontend.png",
+    "title": "Frontend Web",
+    "tags": ["React Server Components", "UI/UX Best practiciesr"],
+    "stacklogo": [
+      "https://a.storyblok.com/f/189744/256x256/4d11f14c05/next-js.png",
+      "https://a.storyblok.com/f/189744/289x256/05cad046ca/react-2.png",
+      "https://a.storyblok.com/f/189744/257x256/da11d83eea/typescript.png"
+    ]
+  },
+  {
+    "id": 4,
+    "logo": "https://a.storyblok.com/f/189744/176x180/86174145a4/backend.png",
+    "title": "Backend",
+    "tags": ["Springboot"],
+    "stacklogo": [
+      "https://a.storyblok.com/f/189744/256x257/a587dc29d7/kotlin-1-2.png",
+      "https://a.storyblok.com/f/189744/258x256/2b82f4b56c/python-5.png"
+    ]
+  },
+  {
+    "id": 5,
+    "logo": "https://a.storyblok.com/f/189744/170x100/69ad021680/devops.png",
+    "title": "DevOps",
+    "tags": ["Github action", "Fastlane"],
+    "stacklogo": [
+      "https://a.storyblok.com/f/189744/289x256/97f4ad774a/google-cloud.png",
+      "https://a.storyblok.com/f/189744/313x256/e8a5b007de/bitriseio-icon.png",
+      "https://a.storyblok.com/f/189744/452x256/0db6ba57f3/docker.png",
+      "https://a.storyblok.com/f/189744/257x256/dd2412c887/swagger-seeklogo-com.png"
+    ]
+  },
+  {
+    "id": 6,
+    "logo": "https://a.storyblok.com/f/189744/188x165/5dfb2d1430/data.png",
+    "title": "Data",
+    "tags": ["Machine Learning"],
+    "stacklogo": [
+      "https://a.storyblok.com/f/189744/258x256/2b82f4b56c/python-5.png",
+      "https://a.storyblok.com/f/189744/291x256/8e6de09efb/google_bigquery-icon.png",
+      "https://a.storyblok.com/f/189744/276x256/dcf3a38452/google-data-studio.png",
+      "https://a.storyblok.com/f/189744/219x256/5b5c74204a/jupyter_logo.png"
+    ]
+  }
+]

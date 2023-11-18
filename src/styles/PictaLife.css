@@ -1,0 +1,163 @@
+@font-face {
+  font-family: Mulish;
+  src: url(../fonts/Mulish-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: MulishButton;
+  src: url(../fonts/Mulish-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: MulishBold;
+  src: url(../fonts/Mulish-Bold.ttf) format("truetype");
+}
+
+.container-block-1-pictalife {
+  display: flex;
+  justify-content: space-between;
+  padding: 3.5rem 0;
+
+  & img {
+    width: 1000px;
+    height: 822px;
+    object-fit: cover;
+  }
+
+  & h2 {
+    font-family: Mulish;
+    font-size: 80px;
+    align-self: center;
+    line-height: 0.9;
+
+    & span {
+      font-style: italic;
+    }
+  }
+}
+
+.container-block-2-pictalife {
+  display: flex;
+  padding: 10rem 0;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+/* .left-block-2-pictalife {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+} */
+
+.right-img-block-2-pictalife {
+  align-self: center;
+  width: 527px;
+  height: 420px;
+  margin-top: 10rem;
+}
+
+.b-memories {
+  font-size: 40px;
+  font-family: Mulish;
+  font-weight: 700;
+}
+
+.last-seminar {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: Mulish;
+}
+
+.g-container-ls-block-2 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 100px;
+}
+
+.block-3-pictalife {
+  width: 70%;
+  padding: 2rem 0;
+}
+
+/* .middle-block-4-pictalife {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+
+/* .block-4-pictalife {
+  display: flex;
+  padding: 3.5rem 0;
+} */
+
+.post-it-fire {
+  width: 567px;
+  height: 604px;
+}
+
+.post-it-teams-gif {
+  width: 100%;
+  height: 607px;
+}
+
+.block-5-pictalife {
+  display: flex;
+  gap: 50px;
+  padding: 3.5rem 0;
+
+  & img {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+/* .block-6-pictalife {
+  display: flex;
+  padding: 3.5rem 0;
+  gap: 50px;
+  & img {
+    width: 377px;
+    height: 400px;
+  }
+} */
+
+/* .discover-by-ceo {
+  width: 35%;
+} */
+/*
+.carousel-1-pictalife {
+  font-size: 60px;
+  padding: 3.5rem 0;
+} */
+
+.carousel-2-pictalife {
+  font-size: 60px;
+  padding: 3.5rem 0;
+}
+
+/* .block-7-pictalife {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  & h2 {
+    font-family: Mulish;
+    font-weight: 500;
+    font-size: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.1;
+  }
+} */
+
+.picta-app {
+  color: #db3753;
+  font-size: 80px;
+  font-family: Mulish;
+  font-weight: 900;
+  font-style: italic;
+}

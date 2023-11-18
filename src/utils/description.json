@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Snack Puzzle",
+    "img": "https://a.storyblok.com/f/189744/2384x1660/3c58429e1c/snackpuzzle-explo-pictarine.jpg/m/1200x0",
+    "text": "Un paquet de chips ? Un sachet de thé ? Des pastilles pour lave vaisselle ? Non... Un puzzle ! Ceci n'est pas un Snack. Fini les interminables puzzles de 1000 pièces ! Un puzzle fun et original pour passer un moment de détente !"
+  },
+  {
+    "id": 2,
+    "title": "Poster Collective",
+    "img": "https://a.storyblok.com/f/189744/2384x1660/090340290f/postercollective-explo-pictarine.jpg/m/1200x0",
+    "text": "Un “trou dans la raquette”, une nouvelle opportunité de marché ? On a foncé ! Voici Poster Collective, réalisé en 3 jours seulement."
+  },
+  {
+    "id": 3,
+    "title": "Warner Bros.™",
+    "img": "https://a.storyblok.com/f/189744/2384x1660/dfe8c1905a/warnerbros-partenaire-pictarine.jpg/m/1200x0",
+    "text": "Grâce à notre partenaire Warner Bros., on a pu lancer l'impression de produits personnalisés dans notre application (posters, canvas, cartes de vœux, d'anniversaire...). Alors plutôt team Pôle Express, Scooby-Doo ou Harry Potter?"
+  },
+  {
+    "id": 4,
+    "title": "Team buildings",
+    "img": "https://a.storyblok.com/f/189744/2384x1660/c8367e6f2b/resto-devs.jpg/m/1200x0",
+    "text": "Afterworks, Quiz Room, Karting, LAN, Escape game... La créativité ne manque pas quand il s'agit de trouver une activité pour s'amuser avec la team !"
+  },
+  {
+    "id": 5,
+    "title": "Des meetups à domicile",
+    "img": "https://a.storyblok.com/f/189744/2384x1660/982d731103/prez-kevin.jpg/m/1200x0",
+    "text": "Que ce soit pour parler data, user research ou accueillir un meetup Swift Toulouse, les portes de notre nouvel amphi sont toujours ouvertes ! Ne rate pas le prochain"
+  },
+  {
+    "id": 6,
+    "title": "La team iOS à la WWDC",
+    "img": "https://a.storyblok.com/f/189744/2384x1660/73f539ac68/wwdc-picta.jpg/m/1200x0",
+    "text": "Toulouse-Paris-San Fransisco. 11h30 de vol. 9h de décalage horaire. Mais ça valait le coup ! Que ce soit la WWDC, la DroidCon ou la Devoxx, on aime apprendre et partager avec nos pairs du monde entier."
+  }
+]

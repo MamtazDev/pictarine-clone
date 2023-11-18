@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "number": 1,
+    "title": "Screening téléphonique",
+    "time": "20 min",
+    "text": "1er échange pour apprendre à se connaître avec le manager de l’équipe que tu souhaites rejoindre."
+  },
+  {
+    "id": 2,
+    "number": 2,
+    "title": "Entretien d'équipe",
+    "time": "90 min",
+    "text": "Entretien avec le manager et une personne de l’équipe que tu souhaites rejoindre."
+  },
+  {
+    "id": 3,
+    "number": 3,
+    "title": "Test\nimmersif",
+    "time": "2h à 3h",
+    "text": "Test adapté au poste, préparé par le manager. Ensuite, tu présentes ton rendu au manager."
+  },
+  {
+    "id": 4,
+    "number": 4,
+    "title": "Entretien\nFinal",
+    "time": "1h",
+    "text": "Rencontre avec un des fondateurs et Elodie notre Head of People."
+  },
+  {
+    "id": 5,
+    "img": "https://pictarine.com/images/spark.png",
+    "title": "Welcome Aboard",
+    "time": "On ne te fait pas attendre !",
+    "text": "Ta proposition est déjà prête, il ne te reste plus qu’à l’accepter!"
+  }
+]

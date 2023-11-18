@@ -1,0 +1,94 @@
+@font-face {
+  font-family: Mulish;
+  src: url(../fonts/Mulish-VariableFont_wght.ttf) format("truetype");
+}
+
+header {
+  padding: 25px 0;
+}
+
+/* .active {
+  font-weight: 900 !important;
+  transition: all linear .2s;
+} */
+
+a.nav-link.active {
+  font-weight: 700 !important;
+}
+
+.nav-link {
+  color: inherit !important;
+  padding: 12 12px !important;
+}
+
+.nav-link:hover {
+  color: #db3753 !important;
+}
+
+.pictarinesGroupe {
+  width: 1130px;
+  height: 740px;
+  inset: 0px;
+  object-fit: cover;
+}
+
+.xplore {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.xplore-title {
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 2.5rem;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  line-height: 0.9;
+}
+
+.creatifs-title {
+  color: #db3753;
+  font-weight: 800;
+  margin-left: 1rem;
+  font-style: italic;
+  font-size: larger;
+}
+
+.french-flag {
+  width: 38px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.container-links-bg-black {
+  background-color: #171717;
+
+  & p,
+  a {
+    color: white !important;
+    font-weight: 600;
+  }
+
+  & a:hover {
+    color: #db3753 !important;
+  }
+}
+
+button.navbar-toggler.collapsed {
+  border-color: transparent;
+}
+
+button.navbar-toggler {
+  border: transparent;
+}
+
+button.navbar-toggler:focus {
+  box-shadow: unset !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 !important;
+}

@@ -1,0 +1,66 @@
+.equal_height {
+    height: 266px;
+}
+
+.multi_row_slider_wrapper {
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.multi_row_slider_wrapper .mrs_content .name_des h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.multi_row_slider_wrapper .mrs_content .name_des p {
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #1c1c1c;
+}
+
+.multi_row_slider_wrapper .link a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #db3753;
+}
+
+.active-dot {
+    background-color: #ff0000;
+    width: 30px;
+    color: #531616;
+}
+
+/* .multiRows_slider .slick-prev {
+    bottom: -25px;
+    left: 44%;
+} */
+
+/* .multiRows_slider .slick-next {
+    right: 40%;
+} */
+
+/* .multiRows_slider .slick-prev::before {
+    font-size: 1rem !important;
+    color: black;
+} */
+
+/* .multiRows_slider .slick-dots{
+    left: -30px;
+} */
+
+/* .multiRows_slider .slick-next::before {
+    font-size: 1rem !important;
+    color: black;
+} */
+
+/* .multiRows_slider .slick-prev,
+.multiRows_slider .slick-next {
+    bottom: -25px !important;
+    top: unset !important;
+} */
+
+/* .multiRows_slider .slick-track{
+    margin-bottom: 50px;
+} */
