@@ -2,10 +2,23 @@ import Plogo from "../../assets/Img/Plogo.png";
 import "../../styles/Navbar.css";
 import { Link, useLocation } from "react-router-dom";
 import { Container, Nav, Navbar } from 'react-bootstrap'
+import { useState } from "react";
+import frImg from '../../assets/Img/fr.png';
+import enImg from '../../assets/Img/en.png';
+import i18next from "i18next";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
+  const { t } = useTranslation();
   const location = useLocation();
   const isTechPage = location.pathname === "/tech";
+  const [currentLanguage, setCurrentLanguage] = useState('fr');
+
+  const handleLanguageChange = () => {
+    const newLanguage = currentLanguage === 'en' ? 'fr' : 'en';
+    i18next.changeLanguage(newLanguage);
+    setCurrentLanguage(newLanguage);
+  };
 
   return (
     <header>
@@ -19,54 +32,43 @@ const Header = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" className={location.pathname === "/tech" ? "bg-white" : ""} />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-
               <Link to={'/'} className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
-                Home
+                {t('title1')}
               </Link>
 
               <Link to={'/product'} className={location.pathname === "/product" ? "nav-link active" : "nav-link"}>
-                Notre Produit
+                {t('title2')}
               </Link>
 
               <Link to={'/pictaLife'} className={location.pathname === "/pictaLife" ? "nav-link active" : "nav-link"}>
-                Picta life
+                {t('title3')}
               </Link>
 
               <Link to={'/team'} className={location.pathname === "/team" ? "nav-link active" : "nav-link"}>
-                La Team
+                {t('title4')}
               </Link>
 
               <Link to={'/tech'} className={location.pathname === "/tech" ? "nav-link active " : "nav-link"}>
-                La Tech
+                {t('title5')}
               </Link>
 
               <Link to={'/partnerships'} className={location.pathname === "/partnerships" ? "nav-link active" : "nav-link"}>
-                Partnerships
+                {t('title6')}
               </Link>
 
               <Link to={'/rejoinsNous'} className={location.pathname === "/rejoinsNous" ? "nav-link active" : "nav-link"}>
-                Rejoins-nous
+                {t('title7')}
               </Link>
 
-              <Link to={'#'} className={location.pathname === "#" ? "nav-link active" : "nav-link"}>
-                <img
-                  className="french-flag"
-                  src="https://pictarine.com/menu/fr.png"
-                  alt="icone du drapeau de la France"
-                />
-              </Link>
-
+              <button onClick={handleLanguageChange} className="border-0 bg-white">
+                {currentLanguage === 'en' ? (<img width={"32px"} src={enImg} />) : (<img width={"32px"} src={frImg} />)}
+              </button>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
     </header>
-
-
-
-
   );
-
 
 }
 

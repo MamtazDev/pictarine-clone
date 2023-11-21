@@ -1,0 +1,64 @@
+{
+  "lang": "fr",
+  "title1": "Home",
+  "title2": "Notre Produit",
+  "title3": "Picta life",
+  "title4": "La Team",
+  "title5": "La Tech",
+  "title6": "Partnerships",
+  "title7": "Rejoins-nous",
+
+  "explorateurs": "Explorateurs",
+  "créatifs": "créatifs",
+  "homeHeroDes": "Une team exceptionnelle, une pincée d'international, on rajoute une bonne louche de débrouillardise... et on obtient une équipe prête à déplacer des montagnes ! Bienvenue chez Pictarine !",
+
+  "homeTitle2": "La vision de Pictarine, avec des jumelles c'est...",
+  "homeDes2": "...une team bourrée de talents, qui est prête à relever tous les challenges ! Mais c'est avant tout une équipe qui est toujours là les uns pour les autres et qui se sert les coudes. Proposer, tester, rater, ajuster... et, bien sûr, recommencer ! Car on a le droit à l'erreur chez Pictarine, et surtout on est jamais seul.e pour se relever.",
+  "homeDesBtn": "Découvre la Picta Life",
+
+  "homeTitle3": "Et le business alors ?",
+  "homeDes3": "Chez nous, un seul mot d'ordre : créer et faire évoluer notre application mobile et web pour que nos utilisateurs puissent imprimer leurs meilleurs souvenirs ! Et pour cela, on ne cesse d'innover et d'explorer des nouvelles idées de produits.",
+
+  "nbr1": "sur les Apps Store",
+  "nbr2": "millions de téléchargements",
+  "nbr3": "magasins partenaires",
+  "nbr4": "millions d'impressions",
+
+  "checkOut": "Découvre nos apps et nos projets d'exploration",
+
+  "meetUpPictaDes": "On aime recevoir dans notre espace de meetup aménagé avec un amphi et un super grand écran pour les supers grandes présentations.",
+
+  "meetUpPictaDes2": "Après 2 ans d’absence, on a hâte de vous retrouver lors d’un Swift Meetup Toulouse. On vous annonce les talks très bientôt et on pourra debriefer ensemble la semaine de WWDC. À très vite !",
+
+  "meetUpPictaDes3": "C’est l’histoire de la conception de deux design systems. D’une part celle de Talan, et d’autre part celle de Pictarine, qui a pu commencer from scratch un design system lors de la refonte technique et design de leur plus grosse appli mobile.",
+
+  "meetUpPictaDes4": "C’est l’histoire de la conception de deux design systems. D’une part celle de Talan, et d’autre part celle de Pictarine, qui a pu commencer from scratch un design system lors de la refonte technique et design de leur plus grosse appli mobile.",
+
+  "mail": "Reste informé des prochains events par mail",
+  "mailBtn": "S'inscrire",
+
+  "stepping": "Engagés pour les causes qui nous tiennent à coeur",
+
+  "setpingDes": "Une course est organisée pour la recherche contre le cancer ? C'est parti, on lace nos baskets ! On trouve ça important de sensibiliser au dépistage du Cancer du Sein ? Tout le monde se mobilise, et pour un habit rose porté on reverse 5 euros de don à la Ligue contre le Cancer du Sein. Besoin de parrains pour le French Tech Tremplin ? On est ravis d'aider des jeunes issus de quartiers difficiles, boursiers ou en situation de handicap, à accéder à l'entreprenariat.",
+
+  "bolgTitle": "On parle de nous",
+
+  "ourProductTitle": "Notre produit phare",
+  "ourProductTitle2": "the Picta App",
+  "ourProductDes": "Notre main product ? Une application qui permet de modifier et d'imprimer des photos en 3 clics, partout aux Etats-Unis. Ensuite, il suffit d'aller les récupérer en magasin en moins d'une heure. It's that easy!",
+
+  "whatWeDo": "Mais qu'est ce qu'on fait chez Pictarine en fait ?",
+  "whatWeDoDes": "Et bien c'est simple, on développe une application (iOS, Android et Web) pour imprimer des photos. Oui mais... :",
+
+  "comeAndSee": "Viens voir à quoi ça ressemble !",
+  "comeAndSeeBtn": "Notre site web",
+
+  "rechercheTitle": "Recherche & Développement",
+  "rechercheTitle2": "nos explorations",
+
+  "parce": "Parce qu&apos;on ne cesse d&apos;innover !",
+
+  "aussi": "On a aussi créé pleins d&apos;outils pour",
+  "aussi2": "faciliter la vie de nos devs !",
+  "aussiBtn": "Par ici les techos"
+}

@@ -1,0 +1,67 @@
+{
+  "lang": "en",
+  "title1": "Home",
+  "title2": "Our Product",
+  "title3": "Picta Life",
+  "title4": "Picta Team",
+  "title5": "Tech",
+  "title6": "Partnerships",
+  "title7": "Join the Team",
+
+  "explorateurs": "Out-of-the-Box",
+  "créatifs": "Thinkers",
+  "homeHeroDes": "Our recipe for success: a bunch of exceptional individuals, add a pinch of international spice, a heaping spoonful of resourcefulness … and you get the team ready to move mountains! Welcome to Pictarine!",
+
+  "homeTitle2": "A glimpse into the Pictarine vision …",
+  "homeDes2": "…a team overflowing with talent that is ready to take on any challenge thrown at us! Look up the definition of “team work” in the dictionary and you'll find our picture. Take the initiative, test, fall down, (get back up!), adjust, and repeat as necessary! At Pictarine, resilience is key. You're not expected to get it right the first time, and there's always someone there to have your back!",
+  "homeDesBtn": "Discover the Picta'Life",
+
+  "homeTitle3": "Let's talk business!",
+  "homeDes3": "The Pictarine touch: creating the simplest photo printing experience possible on our web and mobile apps! Our apps are fast, convenient, and easy but far from boring. Innovators who are passionate about testing new technologies, adventuring into the unknown while coding new products ... that's our m.o.!",
+
+  "notpass": "Its not passing ",
+  "nbr1": "rating on the app stores",
+  "nbr2": "million downloads",
+  "nbr3": "partner stores",
+  "nbr4": "million photos printed",
+  "notpass2": "Its not passing ",
+
+  "checkOut": "Check out our apps and innovations",
+
+  "meetUpPictaDes": "Whether we’re hosting or presenting ourselves, we love sharing and learning in our dedicated space with stadium seating and a big screen for big ideas!",
+
+  "meetUpPictaDes2": "After two years of absence, we’re excited to host the Swift Meetup Toulouse. Check back soon to see speakers and topics. And we’ll get into the nitty gritty of the WWDC week!",
+
+  "meetUpPictaDes3": "Almost better than a fairytale, this meetup is all about design systems! On the one hand, Talan with their expertise in creating and governing of Omnium Finance’s design system. And on the other hand, Pictarine who redeveloped from scratch their design system for the overhaul of the tech and design of their major apps!",
+
+  "meetUpPictaDes4": "Almost better than a fairytale, this meetup is all about design systems! On the one hand, Talan with their expertise in creating and governing of Omnium Finance’s design system. And on the other hand, Pictarine who redeveloped from scratch their design system for the overhaul of the tech and design of their major apps!",
+
+  "mail": "Sign up to be the first to know about upcoming events!",
+  "mailBtn": "Subscribe",
+
+  "stepping": "Stepping up for causes that matter",
+
+  "setpingDes": "A run is being organized for cancer research? Let's get our sneakers on! We think it's important to raise awareness of breast cancer detection? Everyone's getting involved, and for every pink suit worn, we donate 5 euros to the Ligue contre le Cancer du Sein. Need sponsors for the French Tech Tremplin program? We’re pumped to help underprivileged young adults from low-income neighborhoods, on scholarship, or with a handicap to launch their own businesses!",
+
+  "bolgTitle": "In the news …",
+
+  "ourProductTitle": "Our main product",
+  "ourProductTitle2": "the Picta App",
+  "ourProductDes": "An application allowing customers to easily print their photos in three clicks, anywhere in the United States. All that’s left is to pick up your order in store in less than an hour. It’s that easy!",
+
+  "whatWeDo": "But what do we actually do at Pictarine?",
+  "whatWeDoDes": "It’s simple: we develop iOS, Android and Web applications in the photo printing universe. But wait, there’s more …",
+
+  "comeAndSee": "Come and see how it looks!",
+  "comeAndSeeBtn": "Our website",
+
+  "rechercheTitle": "Research & Development",
+  "rechercheTitle2": "our specialty",
+
+  "parce": "Because innovation is in our DNA!",
+
+  "aussi": "We're also constantly creating new",
+  "aussi2": "tools for our dev toolbox!",
+
+  "aussiBtn": "Tech fans this way!"
+}
