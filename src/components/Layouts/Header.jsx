@@ -60,7 +60,7 @@ const Header = () => {
                 {t('title7')}
               </Link>
 
-              <button onClick={handleLanguageChange} className="border-0 bg-white">
+              <button onClick={handleLanguageChange} className={isTechPage ? "bg-black border-0" : "border-0 bg-white"}>
                 {currentLanguage === 'en' ? (<img width={"32px"} src={enImg} />) : (<img width={"32px"} src={frImg} />)}
               </button>
             </Nav>

@@ -91,7 +91,6 @@ function Product() {
       <div className="mais_quest mb-5">
         <div className="container">
           <div className="row">
-
             <div className="col-lg-3">
               <div className="left-block-2 mb-4">
                 <h2 className="title-block-2">
@@ -114,6 +113,7 @@ function Product() {
                 </div>
               </div>
             )}
+
           </div>
         </div>
       </div>
@@ -139,7 +139,6 @@ function Product() {
 
         </div>
       </div>
-
 
       <div className="development g-container-block-3 section-padding pb-0">
         <div className="container">

@@ -5,9 +5,11 @@ import linkedin from "../assets/Img/linkedinIcon.svg";
 import wttj from "../assets/Img/welcometothejungleLogo.svg";
 import Multislider from './../components/Multislider';
 import Life from "../components/life/Life";
+import { useTranslation } from "react-i18next";
 
 function PictaLife() {
 
+  const { t } = useTranslation();
 
   return (
     <>
@@ -16,7 +18,8 @@ function PictaLife() {
           <div className="row align-items-center">
             <div className="col-lg-4">
               <h2 className="fs_60">
-                C&apos;est ça, la<br></br>
+                {t('pictaLifeTitle')}
+                <br></br>
                 <span className="picta-app fs_70">Picta Life</span>
               </h2>
             </div>
@@ -38,7 +41,9 @@ function PictaLife() {
           <div className="row align-items-center">
             <div className="col-lg-8">
               <div className="left-block-2-pictalife">
-                <h2 className="b-memories pb-4">Nos plus beaux souvenirs</h2>
+                <h2 className="b-memories pb-4">
+                  {t('pictaLifeNos')}
+                </h2>
                 <div className="pb-4">
 
                   <iframe
@@ -48,13 +53,11 @@ function PictaLife() {
                     allowFullScreen
                   ></iframe>
                 </div>
-                <h2 className="last-seminar">Notre dernier séminaire</h2>
+                <h2 className="last-seminar">
+                  {t('pictaLifeNotre')}
+                </h2>
                 <p>
-                  Que Calor ! C&apos;est sous le soleil de Palma de Majorque que nous
-                  sommes partis en séminaire en 2022. Montgolfière, catamaran,
-                  buggy... mais on en a aussi profité pour réfléchir à nos valeurs et
-                  à ce qui fait notre ADN ! Bref, on est rentrés avec des étoiles
-                  pleins les yeux, et des souvenirs pleins les coeurs.
+                  {t('pictaLifeQue')}
                 </p>
               </div>
             </div>
@@ -97,11 +100,11 @@ function PictaLife() {
       <div className="valeurs_picta section-padding pb-0">
         <div className="container">
           <div className="block-3-pictalife">
-            <h2 className="b-memories fs_40">Les valeurs Picta</h2>
+            <h2 className="b-memories fs_40">
+              {t('pictaLifeTitle2')}
+            </h2>
             <p>
-              On a profité de notre séminaire 2022 à Palma de Majorque, pour définir
-              tous ensemble nos valeurs ! Et oui, pour que ça ne soit pas que des
-              mots et que ça nous ressemble vraiment.
+              {t('pictaLifeDes')}
             </p>
           </div>
           <div className="row align-items-center">
@@ -118,11 +121,7 @@ function PictaLife() {
               <div className="middle-block-4-pictalife">
                 <h2 className="last-seminar">Ignite your spark</h2>
                 <p>
-                  On sait reconnaitre chacun pour sa singularité et on réalise un
-                  accompagnement personnalisé pour que tout le monde s&pos;épanouisse
-                  dans son travail. Ce qui permet d&apos;évoluer facilement chez nous
-                  ! Le record ? 1,2,3,4...5 métiers différents chez Pictarine ! Qui
-                  dit mieux ?
+                  {t('pictaLifeDes3')}
                 </p>
               </div>
             </div>
@@ -177,11 +176,7 @@ function PictaLife() {
               <div className="teaming-up">
                 <h2 className="last-seminar">Teaming up for the adventure</h2>
                 <p>
-                  Chez Pictarine, on prône l&apos;entraide et l&apos;esprit
-                  d&apos;équipe, mais aussi le partage et la transmission. Et
-                  c&apos;est d&apos;autant plus utile quand on se challenge
-                  continuellement pour explorer en dehors de notre zone de confort.
-                  Seul on va plus vite, mais ensemble on va plus loin !
+                  {t('pictaLifeDes4')}
                 </p>
               </div>
             </div>
@@ -207,9 +202,7 @@ function PictaLife() {
               <div className="discover-by-ceo">
                 <h2 className="last-seminar">Making the impossible possible</h2>
                 <p>
-                  Parce qu’il nous a fallu beaucoup d’audace, de débrouillardise et de
-                  résilience pour en arriver là ! Et le mieux placé pour expliquer
-                  notre parcours et nos ambitions c’est Guillaume, notre CEO.
+                  {t('pictaLifeDes5')}
                 </p>
               </div>
             </div>
@@ -235,11 +228,13 @@ function PictaLife() {
 
       <div className="block-7-pictalife text-center">
         <h2 className="mb-5 fs_60">
-          Ça donne envie ?<br></br>
-          <span className="picta-app">Rejoins-nous!</span>
+          {t('joinTeamTitle')} ?<br></br>
+          <span className="picta-app">
+            {t('joinTeamTitle2')}
+          </span>
         </h2>
         <Link className="button-picta" to={"/rejoinsnous"}>
-          Nos postes ouverts
+          {t('joinTeamBtn')}
         </Link>
       </div>
 

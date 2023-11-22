@@ -61,20 +61,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 40px;
+    max-width: 270px;
+    width: 100%;
+    /* margin-bottom: 40px; */
 }
 
 .container-partnerships-card {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     gap: 5px;
-    padding: 1rem 6rem;
+    padding: 1rem 6rem; */
 
     & img {
-        width: 100%;
+        /* width: 100%; */
     }
 }
 
@@ -204,6 +206,22 @@
     flex-direction: column;
     gap: 25px;
     padding-bottom: 5rem;
+
+}
+
+.g-container-form input {
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #cbd6e2;
+}
+
+.g-container-form input:focus {
+    border: 1px solid rgba(82, 168, 236, .8);
+}
+
+.g-container-form select#partnerType {
+    padding-left: 10px;
+    border-radius: 20px;
 }
 
 .form-btn {
@@ -248,10 +266,14 @@
     }
 }
 
+.partnerships-card{
+    max-width: 310px;
+    width: 100%;
+}
+
 
 .last_block .partnerships-card img {
     width: 10%;
-
 }
 
 @media(max-width: 990px) {

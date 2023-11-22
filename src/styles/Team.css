@@ -42,6 +42,8 @@
   background: linear-gradient(0deg, rgba(9, 9, 9, 0.3), rgba(9, 9, 9, 0));
   color: white;
   cursor: pointer;
+  position: relative;
+  overflow: hidden;
 }
 
 .team_des .team_info {
@@ -59,8 +61,26 @@
   height: 100%;
   color: #000;
   padding: 20px;
+  position: absolute;
+  bottom: 0;
+  /* Set initial position at the bottom */
+  animation: slide-up 0.5s ease-in-out;
+  /* Apply the animation */
 }
 
 .team_des:hover .team_hover_info {
   display: block;
+  animation: slide-up .4s ease-in-out;
+}
+
+@keyframes slide-up {
+  from {
+    bottom: -100%;
+    /* Start from the bottom */
+  }
+
+  to {
+    bottom: 0;
+    /* Move to the top */
+  }
 }

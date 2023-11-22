@@ -1,6 +1,4 @@
 .product-card {
-  display: flex;
-  flex-direction: column;
   background-color: #e6eef0;
   padding: 1rem 1rem;
 

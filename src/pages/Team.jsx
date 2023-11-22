@@ -1,11 +1,13 @@
-import IsotopeFilter from "../components/isotopeFilter/IsotopeFilter";
 import "../styles/Team.css";
 import { Link } from "react-router-dom";
 import { pictaTeam } from "../utils/pictaTeam";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 function Team() {
 
-  const [selectedTab, setSelectedTab] = useState('all'); // Default to show all data
+  const { t } = useTranslation()
+
+  const [selectedTab, setSelectedTab] = useState('all');
 
   const handleTabClick = (type) => {
     setSelectedTab(type);
@@ -56,7 +58,6 @@ function Team() {
                     </div>
                   </div>
                 )
-
               }
 
               {filteredData.map((item) => (
@@ -91,11 +92,13 @@ function Team() {
 
         <div className="block-7-pictalife text-center">
           <h2 className="mb-5 fs_60">
-            Ça donne envie ?<br></br>
-            <span className="picta-app">Rejoins-nous!</span>
+            {t('joinTeamTitle')}<br></br>
+            <span className="picta-app">
+              {t('joinTeamTitle2')}
+            </span>
           </h2>
           <Link className="button-picta" to={"/rejoinsnous"}>
-            Nos postes ouverts
+            {t('joinTeamBtn')}
           </Link>
         </div>
 

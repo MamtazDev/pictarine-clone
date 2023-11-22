@@ -127,7 +127,7 @@
 .number-business {
   font-size: 80px;
   font-family: MulishBold;
-  color: #e6eef059;
+  color: #e6eef0;
 }
 
 @media(max-width: 550px) {
@@ -364,6 +364,6 @@ input {
   height: 370px;
 }
 
-iframe.styles_map__NSGdk{
+iframe.styles_map__NSGdk {
   height: 350px;
 }

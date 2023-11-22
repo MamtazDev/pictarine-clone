@@ -60,5 +60,98 @@
 
   "aussi": "On a aussi créé pleins d&apos;outils pour",
   "aussi2": "faciliter la vie de nos devs !",
-  "aussiBtn": "Par ici les techos"
+  "aussiBtn": "Par ici les techos",
+
+  "pictaLifeTitle": "C'est ça, la",
+  "pictaLifeNos": "Nos plus beaux souvenirs",
+  "pictaLifeNotre": "Notre dernier séminaire",
+  "pictaLifeQue": "Que Calor ! C'est sous le soleil de Palma de Majorque que nous sommes partis en séminaire en 2022. Montgolfière, catamaran, buggy... mais on en a aussi profité pour réfléchir à nos valeurs et à ce qui fait notre ADN ! Bref, on est rentrés avec des étoiles pleins les yeux, et des souvenirs pleins les coeurs.",
+
+  "pictaLifeTitle2": "Les valeurs Picta",
+  "pictaLifeDes": "On a profité de notre séminaire 2022 à Palma de Majorque, pour définir tous ensemble nos valeurs ! Et oui, pour que ça ne soit pas que des mots et que ça nous ressemble vraiment.",
+
+  "pictaLifeDes3": "On sait reconnaitre chacun pour sa singularité et on réalise un accompagnement personnalisé pour que tout le monde s&pos;épanouisse dans son travail. Ce qui permet d&apos;évoluer facilement chez nous ! Le record ? 1,2,3,4...5 métiers différents chez Pictarine ! Qui dit mieux ?",
+
+  "pictaLifeDes4": "Chez Pictarine, on prône l'entraide et l'esprit d'équipe, mais aussi le partage et la transmission. Et c'est d'autant plus utile quand on se challenge continuellement pour explorer en dehors de notre zone de confort. Seul on va plus vite, mais ensemble on va plus loin !",
+
+  "pictaLifeDes5": " Parce qu’il nous a fallu beaucoup d’audace, de débrouillardise et de résilience pour en arriver là ! Et le mieux placé pour expliquer notre parcours et nos ambitions c’est Guillaume, notre CEO.",
+
+  "pictaTeamTitle": "La seule, la vraie,",
+  "pictaTeamTitle2": "la Picta Team",
+
+  "techTeamTitle": "Bonjour la",
+  "techTeamTitle2": "Tech team",
+
+  "techTeamDes": "Chez Pictarine, la Tech n&apos;est pas seulement le coeur de notre produit, c&apos;est l&apos;essence même de notre ADN. Une seule chose est obligatoire dans la Tech Team : proposer de nouvelles choses ! Les idées peuvent (et doivent !) venir de tout le monde, que ce soit de nouvelles technos ou des idées produit/business.",
+
+  "techTeamTitle3": "Notre vision tech",
+  "techTeamTitle4": "Une veille technique régulière",
+  "techTeamTitle5": "Du code de qualité et maintenable",
+  "techTeamTitle6": "Une stack simple et moderne",
+  "techTeamTitle7": "Notre devise : Build and Learn !",
+
+  "techTeamTitle8": "Notre Stack",
+  "techTeamTitle9": "The Dev Life",
+  "techTeamTitle10": " Aussi, parfois on s’amuse. Découvre la Picta Life, et plein de belles photos",
+  "techTeamBtn": " La Picta quoi ?",
+
+  "techTeamDes3": "Notre plus grande fierté ? Le projet Calamar",
+  "techTeamDes4": "Il sagit de la refacto from scratch de toutes nos apps. Finie en 2022, on a dit adieu aux vieilles technos et aux problèmes de dépendances !",
+
+  "techTeamTitle11": "Our Lab",
+  "techTeamDes5": "Here at Pictarine, we are always up for a challenge. When the going gets tough, we create our own tools to respond to our every need. Why create something rather than use an existing solution? To rise to the challenge and put our skills to use!",
+  "techTeamCard": " Et toi, quelle app rêves-tu de développer ? Le Lab Picta t’est ouvert !",
+
+  "checkOut2": "Découvre en détail notre App et nos explos Produits",
+  "checkoutBtn": "Nos produits",
+
+  "partnershipsTitle": "Être partenaire",
+  "partnershipsTitle2": "de Pictarine",
+  "partnershipsDes": "Concevoir, construire et développer des applications uniques : ce n'est que la partie émergée de l'iceberg. Être partenaire de Pictarine, c'est exploiter de nouvelles opportunités de croissance. Que vous soyez distributeur, licensor, fabricant, marketeur... il n'y a pas de limite à ce que nous pouvons faire avec nos partenaires.",
+  "partnershipsDes2": "Rejoignez-nous et construisons ensemble votre prochain axe de croissance !",
+  "partnershipsBtn": "Contactez-nous !",
+
+  "partnershipsTitle3": "Nos Partenaires",
+  "partnershipsDes3": "Quelques unes des plus grandes entreprises du classement Fortune 500 nous font confiance chaque jour. Et vous ?",
+  "partnershipsDes4": "Nos équipes fournissent les meilleures expériences pour vos clients en utilisant les technologies les plus récentes, un UX et des designs sur-mesure pour notre éternelle recherche de perfection.",
+
+  "partnershipsTitle4": "Quelques chiffres",
+  "partnershipsDes5": "Notre devise : Rien n&apos;est impossible !",
+  "partnershipsDes6": "La porte est fermée ? Essayons la fenêtre, puis le toit ! Chez Pictarine, on porte les idées jusqu&apos;au bout !",
+
+  "discover": "Découvrez en plus sur notre produit !",
+  "discoverBtn": "Notre produit",
+
+  "partnershipsTitle5": "Pourquoi être notre partenaire ?",
+  "partnershipsDes7": "Parce que nous avons des années d'expertise dans l'impression rapide et facile de photos pour des millions de clients dans les magasins de nos partenaires à travers les US. Chez Pictarine, nous sommes toujours avides d'idées, de défis et... de nouveaux partenariats !",
+
+  "quoteTitle": "Le mot de l&apos;équipe",
+  "quoteDes": "Tout est possible ! Partagez nous vos idées de partenariat les plus folles : qu&apos;il s&apos;agisse de courtes collaborations ou de projets à long terme, nous sommes à l&apos;écoute. N&apos;hésitez pas à nous contacter et à nous faire part de vos idées !",
+  "getInTouch": "Contactez-nous",
+
+  "joinUsTitle": "Rejoins-nous",
+  "joinUsDes": "On n’a pas fini de grandir ! On recherche des profils bourrés de talent et d’envie, bilingues avec une forte appétence pour l’étranger. Des “problem solvers” ingénieux, à l’esprit d’équipe qui ne se reposent jamais sur leurs acquis… bref, nos prochains coéquipiers n’auront pas peur de se retrousser les manches !",
+
+  "joinUsTitle2": "Ton job de rêve n’est pas dans la liste ?",
+  "joinUsDes2": "N’hésite pas à nous envoyer ta candidature spontanée, on prendra toujours le temps de l’étudier en détail !",
+
+  "joinusFirstName": "Prénom",
+  "joinusFirstName2": "Nom",
+  "joinusEmail": "Email",
+  "joinusTelephone": "Téléphone",
+  "joinusTextArea": "Dis-nous en plus sur toi et ce qui t&apos;anime !",
+  "joinusUpload": "Dépose un fichier, surprend-nous avec une vidéo, une illustration... Bref, montre-nous qui tu es !",
+  "joinusBtn": "Envoyer !",
+
+  "joinusTitle3": "Le process de recrutement",
+  "joinusDes3": "On veut mieux te connaitre ! Et pour cela, rien de tel qu&apos;un process de recrutement transparent. Ce sera l&apos;occasion pour toi de découvrir un peu plus Pictarine et de pouvoir mieux te projeter dans ta future équipe.",
+  "joinusTitle4": "En attendant, rencontre l&apos;équipe !",
+
+  "joinusTitle5": "Pictarine",
+  "joinusTitle6": "ce qui fait la diff",
+
+
+  "joinTeamTitle": "Ça donne envie ?",
+  "joinTeamTitle2": "Ça donne envie ?",
+  "joinTeamBtn": "Nos postes ouverts"
 }

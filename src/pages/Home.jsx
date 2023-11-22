@@ -25,7 +25,6 @@ function Home() {
             <div className="col-lg-4">
               <div className="explore">
                 <div className="xplore">
-
                   <h2 className="xplore-title">
                     {t('explorateurs')}
                     <span className="creatifs-title">
@@ -33,9 +32,7 @@ function Home() {
                     </span>
                   </h2>
                   <p>
-
                     {t('homeHeroDes')}
-
                   </p>
                 </div>
               </div>
@@ -64,7 +61,6 @@ function Home() {
                   </div>
 
                   <div className="glipse-group d-flex flex-wrap gap-3">
-
                     <div className="glipse-group-one">
                       <img
                         className="img-fluid"
@@ -80,10 +76,9 @@ function Home() {
                         alt="Photo d'une présentation orale de l'entreprise Pictarine"
                       />
                     </div>
+
                   </div>
-
                   <div>
-
                   </div>
                 </div>
               </div>

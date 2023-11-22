@@ -10,10 +10,12 @@ import problemsolvers from "../utils/problemsolvers.json";
 import ProblemSolvers from "../components/ProblemSolvers";
 import { Link } from "react-router-dom";
 import CarouselTeam from "../components/CarouselTeam";
+import { useTranslation } from "react-i18next";
 
 function Tech() {
   const LastDataCard = problemsolvers[6];
   const location = useLocation();
+  const { t } = useTranslation()
   const isTechPage = location.pathname === "/Tech";
   const tentaculaire = "/* --------------- Un exemple --------------- */";
   const tentaculaireBis = " //et oui, c'était tentaculaire";
@@ -31,15 +33,11 @@ function Tech() {
               <div className="col-lg-6">
                 <div className="left-block-first-block">
                   <h2>
-                    Bonjour la<br></br>
-                    <span className="picta-app-tech">Tech team</span>
+                    {t('techTeamTitle')}<br></br>
+                    <span className="picta-app-tech">{t('techTeamTitle2')}</span>
                   </h2>
                   <p className="fs_14">
-                    Chez Pictarine, la Tech n&apos;est pas seulement le coeur de notre
-                    produit, c&apos;est l&apos;essence même de notre ADN. Une seule
-                    chose est obligatoire dans la Tech Team : proposer de nouvelles
-                    choses ! Les idées peuvent (et doivent !) venir de tout le monde,
-                    que ce soit de nouvelles technos ou des idées produit/business.
+                    {t('techTeamDes')}
                   </p>
                 </div>
               </div>
@@ -70,7 +68,9 @@ function Tech() {
               <div className="col-lg-8">
 
                 <div className="right-block-second-block-tech">
-                  <h2 className="h2-tech fs_40 fw-bold mb-4">Notre vision tech</h2>
+                  <h2 className="h2-tech fs_40 fw-bold mb-4">
+                    {t('techTeamTitle3')}
+                  </h2>
                   <div className="middle-block-right-block-second-block-tech">
                     <div className="block-middle-icons">
                       <img
@@ -78,38 +78,44 @@ function Tech() {
                         src="https://img.icons8.com/ios/50/eyes-cartoon.png"
                         alt=""
                       />
-                      <p>Une veille technique régulière</p>
+                      <p>
+                        {t('techTeamTitle4')}
+                      </p>
                     </div>
                     <div className="block-middle-icons">
                       <img
                         src="https://img.icons8.com/ios-glyphs/30/so-so.png"
                         alt=""
                       />
-                      <p>Du code de qualité et maintenable</p>
+                      <p>
+                        {t('techTeamTitle5')}
+                      </p>
                     </div>
                     <div className="block-middle-icons">
                       <img
                         src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/external-database-web-hosting-flatart-icons-outline-flatarticons-16.png"
                         alt=""
                       />
-                      <p>Une stack simple et moderne</p>
+                      <p>
+                        {t('techTeamTitle6')}
+                      </p>
                     </div>
                     <div className="block-middle-icons">
                       <img
                         src="https://img.icons8.com/carbon-copy/100/test-tube.png"
                         alt=""
                       />
-                      <p>Notre devise : Build and Learn !</p>
+                      <p>
+                        {t('techTeamTitle7')}
+                      </p>
                     </div>
                   </div>
                   <p>
                     <span className="matrix">{tentaculaire}</span>
                     <br></br>
-                    Notre plus grande fierté ? Le projet Calamar !{" "}
+                    {t('techTeamDes3')}{" "}
                     <span className="matrix">{tentaculaireBis}</span>
-                    <br></br>Il s&apos;agit de la refacto from scratch de toutes nos
-                    apps. Finie en 2022, on a dit adieu aux vieilles technos et aux
-                    problèmes de dépendances !
+                    <br></br>{t('techTeamDes4')}
                   </p>
                 </div>
 
@@ -164,7 +170,9 @@ function Tech() {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="left-block-3">
-                  <h2 className="sobusiness mb-5">La vie de nos devs</h2>
+                  <h2 className="sobusiness mb-5">
+                    {t('techTeamTitle9')}
+                  </h2>
                   {description.slice(3, 5).map((data, id) => (
                     <Description
                       key={id}
@@ -178,7 +186,9 @@ function Tech() {
 
               <div className="col-lg-6">
                 <div className="right-block-3-tech">
-                  <h2 className="four-words-tech">Harder, Better, Faster, Coder</h2>
+                  <h2 className="four-words-tech">
+
+                  </h2>
                   {description[5] && (
                     <Description
                       key={description[5].id}
@@ -189,11 +199,10 @@ function Tech() {
                   )}
                   <div className="techno">
                     <h2 className="text-techno">
-                      Aussi, parfois on s’amuse. Découvre la Picta Life, et plein de
-                      belles photos
+                      {t('techTeamTitle10')}
                     </h2>
                     <Link to={"/Pictalife"} className="button-picta">
-                      La Picta quoi ?
+                      {t('techTeamBtn')}
                     </Link>
                   </div>
                 </div>
@@ -215,13 +224,11 @@ function Tech() {
 
               <div className="col-lg-3 mb-5">
                 <div className="first-card-problemsolvers">
-                  <h3>Notre lab</h3>
+                  <h3>
+                    {t('techTeamTitle11')}
+                  </h3>
                   <p>
-                    Chez Pictarine on adore le challenge de créer nos propres outils
-                    qui répondent exactement à nos besoins. L’avantage de créer
-                    plutôt qu’utiliser une solution existante ? Le challenge et la
-                    praticité ! Overview de nos outils handmade et parfaitement
-                    tailored pour nos besoins.
+                    {t('techTeamDes5')}
                   </p>
                 </div>
               </div>
@@ -253,8 +260,7 @@ function Tech() {
               <div className="col-lg-3">
                 <div className="container-problemsolvers-p">
                   <p>
-                    Et toi, quelle app rêves-tu de développer ? Le Lab Picta t’est
-                    ouvert !
+                    {t('techTeamCard')}
                   </p>
                 </div>
 
@@ -263,33 +269,31 @@ function Tech() {
               <div className="col-lg-3 offset-lg-3 offset-0">
                 <div className="last-block-problemsolvers">
                   <p className="text-techno">
-                    Découvre en détail notre App et nos explos Produits
+                    {t('checkOut2')}
                   </p>
                   <Link to={"/Product"} className="button-picta">
-                    Nos produits
+                    {t('checkoutBtn')}
                   </Link>
                 </div>
               </div>
-
-
-
 
             </div>
           </div>
         </div>
 
 
-
         <div className="block-7-pictalife text-center">
           <h2 className="mb-5 fs_60">
-            Ça donne envie ?<br></br>
-            <span className="picta-app">Rejoins-nous!</span>
+            {t('joinTeamTitle')}
+            <br></br>
+            <span className="picta-app">
+              {t('joinTeamTitle2')}
+            </span>
           </h2>
           <Link className="button-picta" to={"/rejoinsnous"}>
-            Nos postes ouverts
+            {t('joinTeamBtn')}
           </Link>
         </div>
-
 
 
       </div>
