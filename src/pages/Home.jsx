@@ -38,9 +38,10 @@ function Home() {
               </div>
             </div>
             <div className="col-lg-8">
-              <div className="pictarine_group">
+              <div className="pictarine_group text-end">
                 <img
-                  className="pictarinesGroupe img-fluid"
+                  style={{width: '90%'}}
+                  className="pictarinesGroupe"
                   src="https://a.storyblok.com/f/189744/3177x2116/854381f167/team-pictarine.jpg"
                   alt="Photo de groupe de la société Pictarine"
                 />
@@ -268,7 +269,7 @@ function Home() {
             </div>
 
             <div className="g-findus">
-              <h2 className="findus mb-5">
+              <h2 className="findus mb-5 fw-bold">
                 {t('bolgTitle')}
               </h2>
               <div className="g-container-cards">
