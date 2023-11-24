@@ -22,7 +22,7 @@ const Header = () => {
 
   return (
     <header>
-      <Navbar className={`${isTechPage ? 'bg-black text-white py-4' : 'bg-white py-4'}`} expand="lg" fixed="top">
+      <Navbar className={`${isTechPage ? 'le_tech_bg text-white py-4' : 'bg-white py-4'}`} expand="lg" fixed="top">
         <Container>
           <Navbar.Brand>
             <Link to={'/'}>

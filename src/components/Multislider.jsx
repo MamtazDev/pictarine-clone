@@ -69,18 +69,6 @@ const Multislider = () => {
     );
   }
 
-  // function CustomNextArrow(props) {
-  //   const { currentslide, slideCount } = props;
-  //   if (currentslide === slideCount - 3) {
-  //     return null;
-  //   }
-  //   return (
-  //     <button {...props} className="slick-arrow custom-next-arrow border-0">
-  //       <FaChevronRight />
-  //     </button>
-  //   );
-  // }
-
   return (
     <div className="multi_slider position-relative">
       <div className="container">

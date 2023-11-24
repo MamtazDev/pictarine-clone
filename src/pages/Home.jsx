@@ -40,7 +40,7 @@ function Home() {
             <div className="col-lg-8">
               <div className="pictarine_group text-end">
                 <img
-                  style={{width: '90%'}}
+                  style={{ width: '90%' }}
                   className="pictarinesGroupe"
                   src="https://a.storyblok.com/f/189744/3177x2116/854381f167/team-pictarine.jpg"
                   alt="Photo de groupe de la société Pictarine"
@@ -49,7 +49,6 @@ function Home() {
             </div>
           </div>
           <div className="pictarine section-padding pb-0">
-
             <div className="row align-items-center">
               <div className="col-lg-8">
                 <div className="glipse">
@@ -77,7 +76,6 @@ function Home() {
                         alt="Photo d'une présentation orale de l'entreprise Pictarine"
                       />
                     </div>
-
                   </div>
                   <div>
                   </div>
@@ -128,10 +126,8 @@ function Home() {
                         );
                       })}
                     </div>
-
                   </div>
                 </div>
-
               </div>
               <div className="col-lg-4">
                 <img src={img1} className="img1 img-fluid" alt="Photo d'un smartphone" />
@@ -230,7 +226,6 @@ function Home() {
                     </div>
 
                     <div className="glipse-group d-flex flex-wrap gap-3">
-
                       <div className="glipse-group-one">
                         <img
                           className="img-fluid"
@@ -247,9 +242,7 @@ function Home() {
                         />
                       </div>
                     </div>
-
                     <div>
-
                     </div>
                   </div>
                 </div>
@@ -265,6 +258,7 @@ function Home() {
 
                   </div>
                 </div>
+
               </div>
             </div>
 

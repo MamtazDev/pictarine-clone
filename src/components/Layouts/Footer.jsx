@@ -5,8 +5,25 @@ import "../../styles/Home.css";
 import "../../styles/Footer.css";
 import iconLikedin from "../../assets/Img/icon-linkedin.png";
 import wtj from "../../assets/Img/wtj.png"
+import frImg from '../../assets/Img/fr.png';
+import enImg from '../../assets/Img/en.png';
+import { useState } from "react";
+import i18next from "i18next";
+import { useTranslation } from 'react-i18next';
 
 function Footer({ isProductPage, isTechPage }) {
+
+  const {t} = useTranslation()
+
+  const [currentLanguage, setCurrentLanguage] = useState('fr');
+
+  const handleLanguageChange = () => {
+    const newLanguage = currentLanguage === 'en' ? 'fr' : 'en';
+    i18next.changeLanguage(newLanguage);
+    setCurrentLanguage(newLanguage);
+  };
+
+
   const footerClasses = isProductPage
     ? "g-container-footer product-footer-bg-black"
     : "g-container-footer";
@@ -47,21 +64,33 @@ function Footer({ isProductPage, isTechPage }) {
           <div className="right-block-footer">
 
             <div className="links-footer">
-              <Link to={"/Home"}>Home</Link>
-              <Link to={"/Product"}>Notre Produit</Link>
-              <Link to={"/PictaLife"}>Picta life</Link>
-              <Link to={"/Team"}>La Team</Link>
-              <Link to={"/Tech"}>La Tech</Link>
-              <Link to={"/Partnerships"}>Partnerships</Link>
-              <Link to={"/RejoinsNous"}>Rejoins-nous</Link>
+              <Link to={"/"}>
+                {t('title1')}
+              </Link>
+              <Link to={"/product"}>
+                {t('title2')}
+              </Link>
+              <Link to={"/pictalife"}>
+                {t('title3')}
+              </Link>
+              <Link to={"/team"}>
+                {t('title4')}
+              </Link>
+              <Link to={"/tech"}>
+                {t('title5')}
+              </Link>
+              <Link to={"/partnerships"}>
+                {t('title6')}
+              </Link>
+              <Link to={"/rejoinsnous"}>
+                {t('title7')}
+              </Link>
             </div>
 
             <div className="container-trad-footer">
-              <img
-                src="https://pictarine.com/menu/en.png"
-                className="american-flag"
-                alt="icone du drapeau américain"
-              />
+              <button onClick={handleLanguageChange} className={isTechPage ? "bg-black border-0" : "border-0 bg-white"}>
+                {currentLanguage === 'en' ? (<img width={"32px"} src={enImg} />) : (<img width={"32px"} src={frImg} />)}
+              </button>
               <p>Passer en version anglais</p>
             </div>
           </div>
