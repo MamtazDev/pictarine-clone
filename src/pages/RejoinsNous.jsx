@@ -182,8 +182,6 @@ function RejoinsNous() {
 
               <div className="col-lg-8">
                 <div className="process-recrutment-slides">
-
-
                   {t("sliderRecrutment", { returnObjects: true }).map((card, id) => {
                     const dataDayArray = [1, 7, 14, 18, 19];
                     const dataDayValue = dataDayArray[id];
