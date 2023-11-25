@@ -11,8 +11,10 @@ import sliderImgFive from '../../assets/Img/2020.webp';
 import sliderImgSix from '../../assets/Img/2021.webp';
 import sliderImgSeven from '../../assets/Img/2023.webp';
 import LifeSlider from '../lifeSlider/LifeSlider';
+import { useTranslation } from 'react-i18next';
 
 const Life = () => {
+    const {t} = useTranslation()
     const [currentslide, setCurrentSlide] = useState(0);
     const sliderRef = useRef(null);
 
@@ -91,50 +93,50 @@ const Life = () => {
                     {/* 2012 */}
                     <LifeSlider
                         sliderImg={sliderImgOne}
-                        h3={"Les premiers pas"}
-                        p={"Guillaume et Max intègrent TechStars, le plus grand réseau d’entrepreneurs au monde et s’envolent pour Chicago."}
+                        h3={`${t("lifeSliderOneTitle")}`}
+                        p={`${t("lifeSliderOneDes")}`}
                     />
 
                     {/* 2013 */}
                     <LifeSlider
                         sliderImg={sliderImgTwo}
-                        h3={"Le premier partenaire : Walgreens"}
-                        p={"Signature avec Walgreens, l’une des plus grosses chaînes de drugstore aux Etats-Unis. Nous amenons du traffic dans les 9 021 magasins partenaires grâce à notre offre de “pick up in store” de commandes photos. Cela facilite la vie de nos clients et cela leur évitent d’utiliser des bornes de commande."}
+                        h3={`${t("lifeSliderTwoTitle")}`}
+                        p={`${t("lifeSliderTwoDes")}`}
                     />
 
                     {/* 2016 */}
                     <LifeSlider
                         sliderImg={sliderImgThree}
-                        h3={"2 millions de clients"}
-                        p={"Nous ajoutons une option de livraison à domicile dans notre application avec la signature d’un nouveau partenaire : DPI et nous franchissons le cap des 2 millions de clients."}
+                        h3={`${t("lifeSliderThreeTitle")}`}
+                        p={`${t("lifeSliderThreeDes")}`}
                     />
 
                     {/* 2019 */}
                     <LifeSlider
                         sliderImg={sliderImgFour}
-                        h3={"À la conquête d’un autre partenaire… CVS"}
-                        p={"CVS et son réseau de 9751 pharmacies viennent s’ajouter à la liste de nos magasins partenaires. Nous comptons désormais 3 options de livraison : chez Walgreens, CVS ou à domicile."}
+                        h3={`${t("lifeSliderFourTitle")}`}
+                        p={`${t("lifeSliderFourDes")}`}
                     />
 
                     {/* 2020 */}
                     <LifeSlider
                         sliderImg={sliderImgFive}
-                        h3={"Jamais 2 sans 3 : signature de Walmart"}
-                        p={"Pourquoi s’arrêter là lorsque nous pouvons faire plus ? L’année 2020 marque la signature d’un troisième partenaire : Walmart, le géant américain de la distribution."}
+                        h3={`${t("lifeSliderFiveTitle")}`}
+                        p={`${t("lifeSliderFiveDes")}`}
                     />
 
                     {/* 2021 */}
                     <LifeSlider
                         sliderImg={sliderImgSix}
-                        h3={"L’opération Calamar"}
-                        p={"Cette année nous avons eu l’audace de réécrire nos apps from scratch tant au niveau visuel que tech. Ne jamais se reposer sur ses lauriers, c’est notre devise."}
+                        h3={`${t("lifeSliderSixTitle")}`}
+                        p={`${t("lifeSliderSixDes")}`}
                     />
 
                     {/* 2023 */}
                     <LifeSlider
                         sliderImg={sliderImgSeven}
-                        h3={"On continue de grandir"}
-                        p={"Des nouveaux locaux de 1 600m² pour une team en pleine croissance !Et quels locaux ! Salle de sport, amphithéâtre, salle de sieste... On s'y sent comme à la maison."}
+                        h3={`${t("lifeSliderSevenTitle")}`}
+                        p={`${t("lifeSliderSevenDes")}`}
                     />
                 </Slider>
             </div>

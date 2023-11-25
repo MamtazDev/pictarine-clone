@@ -247,12 +247,12 @@
 
 .process-recrutment-slides {
   display: flex;
-  flex-direction: row;
-  gap: 50px;
+  /* flex-direction: row; */
+  gap: 30px;
   position: relative;
-  display: flex;
+  /* display: flex; */
   padding-bottom: 7rem;
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
   overflow-y: hidden;
 }
 
@@ -280,7 +280,7 @@
   width: 138.5%;
   background-color: #e6eef0;
   position: absolute;
-  bottom: 0;
+  bottom: 79px;
   left: 0;
   z-index: 1;
 }

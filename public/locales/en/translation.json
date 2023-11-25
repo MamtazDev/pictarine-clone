@@ -52,6 +52,148 @@
   "whatWeDo": "But what do we actually do at Pictarine?",
   "whatWeDoDes": "It’s simple: we develop iOS, Android and Web applications in the photo printing universe. But wait, there’s more …",
 
+  "productCards": [
+    {
+      "id": 1,
+      "img": "https://img.icons8.com/ios/50/flag--v1.png",
+      "title": "We are born in the USA!",
+      "text": "Our app is currently only available in the States, the team however, can be found with croissants in Toulouse, France."
+    },
+    {
+      "id": 2,
+      "img": "https://img.icons8.com/ios-glyphs/30/smartphone--v1.png",
+      "title": "Providing dedicated experiences",
+      "text": "We partner with big names like CVS, Walgreens, and Walmart to provide the best experience to customers shopping at each company."
+    },
+    {
+      "id": 3,
+      "img": "https://img.icons8.com/ios/50/shopping-bag--v1.png",
+      "title": "Click & Collect",
+      "text": "Your photos are printed in less than hour and ready to be picked up at the store closest to you."
+    }
+  ],
+
+  "description": [
+    {
+      "id": 1,
+      "title": "Snack Puzzle",
+      "img": "https://a.storyblok.com/f/189744/2384x1660/3c58429e1c/snackpuzzle-explo-pictarine.jpg/m/1200x0",
+      "text": "A bag of chips? A packet of tea? Dishwasher tablets? No ... a puzzle! This is not a Snack. A simple puzzle in a colored bag with quirky and unique designs and text."
+    },
+    {
+      "id": 2,
+      "title": "Poster Collective",
+      "img": "https://a.storyblok.com/f/189744/2384x1660/090340290f/postercollective-explo-pictarine.jpg/m/1200x0",
+      "text": "On the lookout for untapped market potential? Say no more. We went ahead and created Poster Collective in just three days!"
+    }
+  ],
+
+  "descriptionTwo": [
+    {
+      "id": 3,
+      "title": "Warner Bros.™",
+      "img": "https://a.storyblok.com/f/189744/2384x1660/dfe8c1905a/warnerbros-partenaire-pictarine.jpg/m/1200x0",
+      "text": "In collaboration with our partner, your favorite characters, tv shows, and movies are available on our wide-variety of photo products. Catchy designs for all fans make for the perfect gift to offer … or keep!"
+    }
+  ],
+
+  "descriptionThree": [
+    {
+      "id": 4,
+      "title": "Team buildings",
+      "img": "https://a.storyblok.com/f/189744/2384x1660/c8367e6f2b/resto-devs.jpg/m/1200x0",
+      "text": "Afterworks, Quiz Room, Go-Karting, LAN, Escape Games … when it comes to having fun, this team has no limits!"
+    },
+    {
+      "id": 5,
+      "title": "Home grown Meetups",
+      "img": "https://a.storyblok.com/f/189744/2384x1660/982d731103/prez-kevin.jpg/m/1200x0",
+      "text": "Whether its to talk data, user research or even host a Swift Toulouse Meetup, the doors to our new amphitheater are always open! Don’t miss the next event!"
+    }
+  ],
+
+  "descriptionFour": [
+    {
+      "id": 6,
+      "title": "The iOS Team takes on the WWDC",
+      "img": "https://a.storyblok.com/f/189744/2384x1660/73f539ac68/wwdc-picta.jpg/m/1200x0",
+      "text": "Toulouse-Paris-San Francisco, 12 hours on a plane, 9 hours of jet lag … but definitely worth it! Whether it’s at the WWDC, DroidCon, or Devoxx, we love learning and sharing with our peers worldwide!"
+    }
+  ],
+
+  "problemSolvers": [
+    {
+      "id": 1,
+      "logo": "https://a.storyblok.com/f/189744/320x324/be5bffd1df/div-5.png",
+      "title": "Admin",
+      "text": "It all starts here. From marketing to customer support and even coding aid... each tool is a piece of the puzzle in our marketing strategy allowing us to accurately target the best users possible and become marketing hackers!"
+    },
+    {
+      "id": 2,
+      "logo": "https://a.storyblok.com/f/189744/320x324/f4ce2d8063/div-3.png",
+      "title": "App Ninja",
+      "text": "With the help of this ninja, the Pictarine team can read and respond to each review for our Android and iOS apps faster than a throwing star. No need to connect to a third-party application... just Slack!"
+    },
+    {
+      "id": 3,
+      "logo": "https://a.storyblok.com/f/189744/320x324/60fd86abfa/div-4.png",
+      "title": "Snip",
+      "text": "Snip lets us efficiently and quickly handle code extracts for macOS. Entirely written in SwitUI, Snip can handle over 100 programming languages, GitHub synchronization, and even HTML/Markdown previews."
+    },
+    {
+      "id": 4,
+      "logo": "https://a.storyblok.com/f/189744/320x324/1db751194d/image.png",
+      "title": "Trognon",
+      "text": "This Slack app gives us real-time app status updates with a Slack notification. It uses the App Store Connect API."
+    },
+    {
+      "id": 5,
+      "logo": "https://a.storyblok.com/f/189744/320x324/3b99df5b3b/div.png",
+      "title": "BigQuery",
+      "text": "Ever accidentally spend over $200 on a query? Then our public, open-source BigQuery extension is for you! It lets you know exactly how much your query will cost before you hit 'Run'."
+    },
+    {
+      "id": 6,
+      "logo": "https://a.storyblok.com/f/189744/320x324/beea1e23d6/div-2.png",
+      "title": "Release Note Now",
+      "text": "This automatic release-note generator for GitHub is the tool for publishing open-source projects! The first-ever library on NPM, made available to the public by Pictarine."
+    },
+    {
+      "id": 7,
+      "logo": "https://a.storyblok.com/f/189744/320x324/44b2092250/div-1.png",
+      "title": "Today’s Widget",
+      "text": "Today's Widget is a quick and easy weather widget for the iPhone home screen. It works on all iOS/iPadOS devices currently running iOS 14+."
+    }
+  ],
+
+  "multiSliderTitle": "And all the moments in",
+  "multiSliderTitleTwo": "between",
+  "multiSliderDes": "From cooking classes and karaoke nights, to",
+  "multiSliderDesTwo": "kayaking adventures and axe throwing, we’re",
+  "multiSliderDesThree": "never bored at Pictarine! There’s something for",
+  "multiSliderDesFour": "everyone.",
+
+  "lifeSliderOneTitle": "Early days",
+  "lifeSliderOneDes": "Guillaume and Max join TechStars, the largest network of entrepreneurs in the world and pack their bags for Chicago.",
+
+  "lifeSliderTwoTitle": "Game changer",
+  "lifeSliderTwoDes": "The first partnership with Walgreens, the second largest pharmacy chain in the US, is signed! Thanks to our 1-hour, pick up in-store photo offer we drive millions of customers into the 9,021 partner stores nationwide. Making life easier, removing the need for kiosks … that’s the Pictarine way!",
+
+  "lifeSliderThreeTitle": "2 million customers",
+  "lifeSliderThreeDes": "We add a home delivery option in our apps with our newest partner District Photo, passing the 2 million customers mark.",
+
+  "lifeSliderFourTitle": "Taking it to the next level",
+  "lifeSliderFourDes": "CVS and their network of 9,751 stores join our list of partners. We now have 3 delivery options: in-store with Walgreens and CVS or home delivery.",
+
+  "lifeSliderFiveTitle": "Rule of Three: signing Walmart",
+  "lifeSliderFiveDes": "Why stop there? 2020 marks the signing of our third partner: Walmart, the number one retailer in the US.",
+
+  "lifeSliderSixTitle": "Operation Squid",
+  "lifeSliderSixDes": "A daring new challenge: rewriting and redesigning our applications 100% from scratch. Never resting on our laurels, that’s our motto.",
+
+  "lifeSliderSevenTitle": "And we keep growing",
+  "lifeSliderSevenDes": "A shiny new, 1,600 m2 office space for our rapidly growing team! And what an office it is … gym, stadium-seating amphitheater, nap rooms, and more for the best working environment possible!",
+
   "comeAndSee": "Come and see how it looks!",
   "comeAndSeeBtn": "Our website",
 
@@ -123,6 +265,183 @@
   "partnershipsTitle5": "Why partner with us?",
   "partnershipsDes7": "We have years of experience bringing quick and easy photo printing to millions of customers in our partners' stores. At Pictarine we are always hungry for more ideas, challenges, and partners.",
 
+  "partnershipsCards": [
+    {
+      "id": 1,
+      "logo": "https://a.storyblok.com/f/189744/493x405/894ece520f/photo-printed.png/m/1200x0",
+      "title": "+ 400 M",
+      "text": "Photos imprimées en 6 ans"
+    },
+    {
+      "id": 2,
+      "logo": "https://a.storyblok.com/f/189744/362x360/ef351feb6b/stat-sales.png/m/1200x0",
+      "title": "$4 M",
+      "text": "Ventes moyennes par mois"
+    },
+    {
+      "id": 3,
+      "logo": "https://a.storyblok.com/f/189744/350x334/203008069f/star-rate.png/m/1200x0",
+      "title": "4.9/5",
+      "text": "Note moyenne sur les stores"
+    },
+    {
+      "id": 4,
+      "logo": "https://a.storyblok.com/f/189744/304x324/140679fa4f/download.png/m/1200x0",
+      "title": "20 M",
+      "text": "Downloads"
+    },
+    {
+      "id": 5,
+      "logo": "https://a.storyblok.com/f/189744/405x304/f0e164b52a/store.png/m/1200x0",
+      "title": "23 000",
+      "text": "Magasins partenaires"
+    }
+  ],
+
+  "partnershipsCardTwo": [
+    {
+      "id": 6,
+      "logo": "https://a.storyblok.com/f/189744/210x208/cad4b4dcd4/stat-business.png/m/1200x0",
+      "title": "Scale your business",
+      "text": "Expand your customer base, increase your CLTV, and maximize your visibility."
+    },
+    {
+      "id": 7,
+      "logo": "https://a.storyblok.com/f/189744/193x241/6b97592bb9/no-limit-moon.png/m/1200x0",
+      "title": "Have no limits",
+      "text": "Convert bold ideas into profitable successes."
+    },
+    {
+      "id": 8,
+      "logo": "https://a.storyblok.com/f/189744/205x157/4df18b6095/talk-bubble-little.png/m/1200x0",
+      "title": "Develop together",
+      "text": "At Pictarine we create strong relationships with our partners founded on trust and common values"
+    }
+  ],
+
+  "multipaleRowSlider": [
+    {
+      "name": "Data Engineer",
+      "des": "Team Engineering",
+      "location": "Toulouse",
+      "cdi": "Permanent Position",
+      "pointsTitle": "In a few points...",
+      "pointOne": "• Facilitate access to data",
+      "pointTwo": "• Co-build solutions",
+      "pointThree": "• Orchestrate data flow",
+      "pointFour": "",
+      "link": "#"
+    },
+    {
+      "name": "Lead Legal Counsel",
+      "des": "Team Finance",
+      "location": "Toulouse",
+      "cdi": "Permanent Position",
+      "pointsTitle": "In a few points...",
+      "pointOne": "• Problem-solver",
+      "pointTwo": "• Be a reference for the legal aspect",
+      "pointThree": "• Responsible for Intellectual Property and Data",
+      "pointFour": "",
+      "link": "#"
+    },
+    {
+      "name": "Lead People Acquisition",
+      "des": "Team People",
+      "location": "Toulouse",
+      "cdi": "Permanent Position",
+      "pointsTitle": "In a few points...",
+      "pointOne": "• Support the people",
+      "pointTwo": "• Discover the best talents",
+      "pointThree": "• Promote Pictarine's values",
+      "pointFour": "• Provide an incredible candidate experience",
+      "link": "#"
+    },
+    {
+      "name": "Talent Acquisition Partner",
+      "des": "Team People",
+      "location": "Toulouse",
+      "cdi": "Permanent Position",
+      "pointsTitle": "In a few points...",
+      "pointOne": "• Provide an incredible candidate experience",
+      "pointTwo": "• Discover the best talents",
+      "pointThree": "• Promote Pictarine's values",
+      "pointFour": "",
+      "link": "#"
+    },
+    {
+      "name": "Front Web Developer",
+      "des": "Team Engineering",
+      "location": "Toulouse",
+      "cdi": "Permanent Position",
+      "pointsTitle": "In a few points...",
+      "pointOne": "• Improve our apps",
+      "pointTwo": "• Develop quickly and effectively",
+      "pointThree": "• Problem-solver",
+      "pointFour": "• Test new technologies",
+      "link": "#"
+    },
+    {
+      "name": "Lead People Development",
+      "des": "Team People",
+      "location": "Toulouse",
+      "cdi": "Permanent Position",
+      "pointsTitle": "In a few points...",
+      "pointOne": "• Career path",
+      "pointTwo": "• Pictarine Academy",
+      "pointThree": "• Support the people",
+      "pointFour": "",
+      "link": "#"
+    },
+    {
+      "name": "Lead Product Designer",
+      "des": "Product Team",
+      "location": "Toulouse",
+      "cdi": "Permanent Position",
+      "pointsTitle": "In a few points...",
+      "pointOne": "• Contribute to product design",
+      "pointTwo": "• Be creative",
+      "pointThree": "• Build and supervise a team",
+      "pointFour": "",
+      "link": "#"
+    },
+    {
+      "name": "Lead iOS Developer",
+      "des": "Team Engineering",
+      "location": "Toulouse",
+      "cdi": "Permanent Position",
+      "pointsTitle": "In a few points...",
+      "pointOne": "• Develop quickly and effectively",
+      "pointTwo": "• Supervise developers",
+      "pointThree": "• Be responsible for production",
+      "pointFour": "",
+      "link": "#"
+    },
+    {
+      "name": "Backend Developer",
+      "des": "Team Engineering",
+      "location": "Toulouse",
+      "cdi": "Permanent Position",
+      "pointsTitle": "In a few points...",
+      "pointOne": "• Design data models",
+      "pointTwo": "• Test new technologies",
+      "pointThree": "• Solve problems",
+      "pointFour": "",
+      "link": "#"
+    },
+    {
+      "name": "Senior iOS Developer",
+      "des": "Team Engineering",
+      "location": "Toulouse",
+      "cdi": "Permanent Position",
+      "pointsTitle": "In a few points...",
+      "pointOne": "• Develop quickly and effectively",
+      "pointTwo": "• Inspire other developers",
+      "pointThree": "• Supervise production apps",
+      "pointFour": "",
+      "link": "#"
+    }
+  ],
+
   "quoteTitle": "A word from the partnership team",
   "quoteDes": "Everything's possible! Share your craziest partnership ideas: from short collaborations to long term projects, we are all ears. Drop us a line and let's make it happen!",
 
@@ -142,13 +461,163 @@
   "joinusUpload": "Upload a file, document, illustration, video …",
   "joinusBtn": "Get in touch !",
 
+  "joinusTitle3": "Your Recrutement Journey",
+  "joinusDes3": "Let’s get to know each other! And what better way to do so than with a thorough recrutement process. It’s the perfect occasion to learn more about Pictarine and picture what your work life will be with your future team!",
+
+  "sliderRecrutment": [
+    {
+      "id": 1,
+      "number": 1,
+      "title": "Phone screening",
+      "time": "20 min",
+      "text": "A first chat with your future team manager to learn more about you … and about us!"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "title": "Team Interview",
+      "time": "90 min",
+      "text": "An interview with your future manager and a teammate."
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "title": "Immersive Test",
+      "time": "2h à 3h",
+      "text": "A practice test adapted to your future role, crafted by your manager, and followed by a presentation of your work."
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "title": "Final Interview",
+      "time": "1h",
+      "text": "Meet with a member of the Management Committee and Elodie, Head of People."
+    },
+    {
+      "id": 5,
+      "img": "https://pictarine.com/images/spark.png",
+      "title": "Welcome Aboard",
+      "time": "(Yes, already!)",
+      "text": "All that’s left is to sign your hiring papers and start getting excited for your first day!"
+    }
+  ],
+
+  "diffPicta": [
+    {
+      "id": 1,
+      "title": "Support & Feedback",
+      "sentence": "We encourage feedback above all else! You can count on personal and professional support from your manager, thanks to your weekly 1-1s."
+    },
+    {
+      "id": 2,
+      "title": "Exploration",
+      "sentence": "We’re always on the lookout for the next big thing, big project, big technology! You’re never bored with new, fun, innovative projects to explore."
+    },
+    {
+      "id": 3,
+      "title": "Sharing & Learning",
+      "sentence": "Internal talks, Meetups, etc … we’re always ready to learn from each other and share our know-how!"
+    },
+    {
+      "id": 4,
+      "title": "There’s no place like … work!",
+      "sentence": "Snacks, fresh fruits, and drinks … oh my! Whether you are looking for a healthy option or a sugar rush, we’re fully stocked."
+    },
+    {
+      "id": 5,
+      "title": "Flexibility",
+      "sentence": "Remote, In-office, Hybrid? At Pictarine, you have the option of working remotely a few times a week, based on your meetings and schedule. We also offer flexible working hours to promote a healthy work-life balance!"
+    },
+    {
+      "id": 6,
+      "title": "Compensation & Benefits",
+      "sentence": "Your health premium, additional paid leave, profit-sharing, stock options, vacation bonus, holiday gift cards … and much more!"
+    },
+    {
+      "id": 7,
+      "title": "Activities",
+      "sentence": "Meetups, yearly work trips, Mario Kart tournaments, bake-offs, gym classes, massages, gnocchi workshops, and even Poker nights …"
+    }
+  ],
+
   "joinusTitle4": "In the meantime, meet your future teammates!",
 
   "joinusTitle5": "What makes,",
   "joinusTitle6": "Pictarine different",
 
-
   "joinTeamTitle": "Sound like something you like?",
   "joinTeamTitle2": "Join the team!",
-  "joinTeamBtn": "See our jobs"
+  "joinTeamBtn": "See our jobs",
+
+  "businessInfo": [
+    {
+      "id": 1,
+      "number": 4.9,
+      "title": "rating on the app stores",
+      "text": "Our customers have spoken!"
+    },
+    {
+      "id": 2,
+      "number": 20,
+      "title": "million downloads",
+      "text": "Since 2016, our apps have been downloaded 16M times … and counting!"
+    },
+    {
+      "id": 3,
+      "number": 23000,
+      "title": "partner stores",
+      "text": "Working with some of the biggest names in the business, our partners include Walgreens, CVS & Walmart"
+    },
+    {
+      "id": 4,
+      "number": 400,
+      "title": "million photos printed",
+      "text": "That’s 11 photos per second per year!"
+    }
+  ],
+
+  "businessInfoTwo": [
+    {
+      "id": 5,
+      "number": 11,
+      "title": "developers",
+      "text": "A team of motivated all-stars, creating products that rock. Challenging each other daily, with code reviews and programming to take us to the next level!"
+    },
+    {
+      "id": 6,
+      "number": 99.9,
+      "title": "crash free",
+      "text": "That’s what our 2M of our yearly app users love about us!"
+    },
+    {
+      "id": 7,
+      "number": 10,
+      "title": "applications",
+      "text": "From Walgreens, CVS, and Walmart to iOS, Android and Web … plus we can’t forget about our internal apps and our innovation projects!"
+    }
+  ],
+
+  "blogCards": [
+    {
+      "type": "blogCardInfo",
+      "img": "https://a.storyblok.com/f/189744/1504x1000/559bd0db77/maddyness-pictarine.jpg/m/800x0",
+      "logo": "https://a.storyblok.com/f/189744/612x120/9165296e3d/maddyness-logo-vector-1.png",
+      "text": "Pictarine, the French startup with €40 million in sales in the US and €0 in France",
+      "link": "https://www.maddyness.com/2022/12/01/pictarine-photo/"
+    },
+    {
+      "type": "blogCardInfo",
+      "img": "https://a.storyblok.com/f/189744/1504x1000/9de254d5bc/lesechos-pictarine.jpg/m/800x0",
+      "logo": "https://a.storyblok.com/f/189744/623x120/1b0e17d6da/logo-lesechos-entrepreneurs-1.png",
+      "text": "After conquering the US, Pictarine wants to tackle photo printing in Europe.",
+      "link": "https://business.lesechos.fr/entrepreneurs/actu/0603883369722-apres-les-etats-unis-pictarine-veut-imprimer-les-photos-en-europe-339640.php"
+    },
+    {
+      "type": "blogCardInfo",
+      "img": "https://a.storyblok.com/f/189744/1504x1000/92ab60a8d0/searchads-pictarine.jpg/m/800x0",
+      "logo": "https://help.dfinery.io/hc/article_attachments/360032034474/apple_search_ads.png",
+      "text": "Customer print memories, Pictarine grows conversions.",
+      "link": "https://searchads.apple.com/success-stories/pictarine"
+    }
+  ]
 }

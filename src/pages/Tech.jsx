@@ -130,7 +130,7 @@ function Tech() {
           <div className="container">
             <div className={cardNumberClasses}>
               <div className="row">
-                {businessinfos.slice(4, 7).map((data, id) => (
+                {t("businessInfoTwo", {returnObjects: true}).map((data, id) => (
                   <div className="col-lg-4">
                     <BusinessInfos
                       key={id}
@@ -173,7 +173,7 @@ function Tech() {
                   <h2 className="sobusiness mb-5">
                     {t('techTeamTitle9')}
                   </h2>
-                  {description.slice(3, 5).map((data, id) => (
+                  {t("descriptionThree", {returnObjects: true}).map((data, id) => (
                     <Description
                       key={id}
                       img={data.img}
@@ -187,16 +187,16 @@ function Tech() {
               <div className="col-lg-6">
                 <div className="right-block-3-tech">
                   <h2 className="four-words-tech">
-
+                    Harder, better, faster, coder.
                   </h2>
-                  {description[5] && (
+                  {t("descriptionFour", { returnObjects: true }).map((data, id) => (
                     <Description
-                      key={description[5].id}
-                      img={description[5].img}
-                      title={description[5].title}
-                      text={description[5].text}
+                      key={id}
+                      img={data.img}
+                      title={data.title}
+                      text={data.text}
                     />
-                  )}
+                  ))}
                   <div className="techno">
                     <h2 className="text-techno">
                       {t('techTeamTitle10')}
@@ -233,7 +233,7 @@ function Tech() {
                 </div>
               </div>
 
-              {problemsolvers.slice(0, 6).map((data, id) => {
+              {t("problemSolvers", {returnObjects: true}).map((data, id) => {
                 return (
                   <div className="col-lg-3 mb-5">
                     <ProblemSolvers

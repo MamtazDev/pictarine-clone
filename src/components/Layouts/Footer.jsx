@@ -88,7 +88,7 @@ function Footer({ isProductPage, isTechPage }) {
             </div>
 
             <div className="container-trad-footer">
-              <button onClick={handleLanguageChange} className={isTechPage ? "bg-black border-0" : "border-0 bg-white"}>
+              <button onClick={handleLanguageChange} className={isProductPage ? "bg-black border-0" : "border-0 bg-white"}>
                 {currentLanguage === 'en' ? (<img width={"32px"} src={enImg} />) : (<img width={"32px"} src={frImg} />)}
               </button>
               <p>Passer en version anglais</p>

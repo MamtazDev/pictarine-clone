@@ -14,8 +14,10 @@ import pp12 from "../assets/Img/pp12.jfif";
 import pp13 from "../assets/Img/pp13.jfif";
 import Slider from "react-slick";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 const Multislider = () => {
+  const {t} = useTranslation()
   const pictures = [pp1, pp3, pp2, pp4, pp5, pp13, pp6, pp7, pp8, pp11, pp9, pp10, pp12];
 
   const settings = {
@@ -75,11 +77,11 @@ const Multislider = () => {
         <Slider {...settings}>
           <div className="position-absolute top-50">
             <h2>
-              Et tellement d'autres <br />
-              beaux moments
+              {t("multiSliderTitle")} <br />
+              {t("multiSliderTitleTwo")}
             </h2>
             <p>
-              Des cours de cuisine, au karaoké en passant <br /> par le canoë et le lancer de haches, on ne <br /> s'ennuie pas chez Pictarine ! Et il y en a pour <br /> tous les goûts.
+              {t("multiSliderDes")} <br /> {t("multiSliderDesTwo")} <br /> {t("multiSliderDesThree")} <br /> {t("multiSliderDesFour")}
             </p>
           </div>
           {pictures.map((data, index) => (

@@ -146,7 +146,7 @@ function Partnerships() {
                   </p>
                 </div>
               </div>
-              {partnershipscards.slice(0, 5).map((data, id) => (
+              {t("partnershipsCards", {returnObjects: true}).map((data, id) => (
                 <div className="col-lg-3 mb-5">
                   <PartnerShips
                     key={id}
@@ -212,7 +212,7 @@ function Partnerships() {
           <div className="container">
             <div className="row">
               {
-                partnershipscards.slice(5, 8).map((data, id) => (
+                t("partnershipsCardTwo", {returnObjects: true}).map((data, id) => (
                   <div className="col-lg-4">
                     <div className="partnerships-card mb-5" key={id}>
                       <img src={data.logo} alt="" />

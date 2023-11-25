@@ -102,15 +102,13 @@ function Product() {
               </div>
             </div>
 
-            {productcards.map((data, id) =>
+            {t('productCards', { returnObjects: true }).map((data, id) =>
               <div className="col-lg-3" key={id}>
-                <div className="mb-4">
                   <ProductCards
                     img={data.img}
                     title={data.title}
                     text={data.text}
                   />
-                </div>
               </div>
             )}
 
@@ -152,7 +150,7 @@ function Product() {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="left-block-3">
-                {description.slice(0, 2).map((data, id) => {
+                {t('description', { returnObjects: true }).map((data, id) => {
                   return (
                     <Description
                       key={id}
@@ -170,14 +168,16 @@ function Product() {
                 <h2 className="pb-4 text-end">
                   {t('parce')}
                 </h2>
-                {description[2] && (
-                  <Description
-                    key={description[2].id}
-                    img={description[2].img}
-                    title={description[2].title}
-                    text={description[2].text}
-                  />
-                )}
+                {t('descriptionTwo', { returnObjects: true }).map((data, id) => {
+                  return (
+                    <Description
+                      key={id}
+                      img={data.img}
+                      title={data.title}
+                      text={data.text}
+                    />
+                  );
+                })}
                 <div className="techno">
                   <h2 className="text-techno text-end">
                     {t('aussi')} <br /> {t('aussi2')}
