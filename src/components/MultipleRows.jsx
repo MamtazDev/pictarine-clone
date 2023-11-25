@@ -62,6 +62,7 @@ const MultipleRows = () => {
           {
             t("multipaleRowSlider", { returnObjects: true }).map((data, index) => (
               <MultiRowSlider
+                key={index}
                 name={data.name}
                 des={data.des}
                 location={data.location}
