@@ -94,10 +94,10 @@ function Footer({ isProductPage, isTechPage }) {
             <div className="container-trad-footer">
               {
                 (
-                  <button onClick={handleLanguageChange} className={isProductPage ? 'bg-black border-0 text-white' : isTechPage ? 'bg-black border-0 text-white' : 'bg-white text-black border-0'}>
+                  <div style={{ cursor: "pointer" }} onClick={handleLanguageChange} className={isProductPage ? 'bg-transparant border-0 text-white ' : isTechPage ? 'bg-transparant border-0 text-white' : 'bg-white text-black border-0'}>
                     {currentLanguage === 'en' ? (<img width={"32px"} src={enImg} />) : (<img width={"32px"} src={frImg} />)}
                     <span className="ms-3">{t('footerText')}</span>
-                  </button>
+                  </div>
                 )
               }
               {/* {
