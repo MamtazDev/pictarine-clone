@@ -35,6 +35,10 @@ function Footer({ isProductPage, isTechPage }) {
   const logoClasses = isTechPage
     ? "logo-social logo-social-black"
     : "logo-social";
+
+  const isTechPageBgColor = {
+    backgroundColor: "black"
+  }
   return (
     <footer className={`${footerClasses} ${navbarClasses} section-padding`}>
       <div className="container">
@@ -88,10 +92,31 @@ function Footer({ isProductPage, isTechPage }) {
             </div>
 
             <div className="container-trad-footer">
-              <button onClick={handleLanguageChange} className={isProductPage ? "bg-black border-0" : "border-0 bg-white"}>
-                {currentLanguage === 'en' ? (<img width={"32px"} src={enImg} />) : (<img width={"32px"} src={frImg} />)}
-                <span className="ms-3">{t('footerText')}</span>
-              </button>
+              {
+                (
+                  <button onClick={handleLanguageChange} className={isProductPage ? 'bg-black border-0 text-white' : isTechPage ? 'bg-black border-0 text-white' : 'bg-white text-black border-0'}>
+                    {currentLanguage === 'en' ? (<img width={"32px"} src={enImg} />) : (<img width={"32px"} src={frImg} />)}
+                    <span className="ms-3">{t('footerText')}</span>
+                  </button>
+                )
+              }
+              {/* {
+                isProductPage && (
+                  <button onClick={handleLanguageChange} className="bg-black border-0 text-white">
+                    {currentLanguage === 'en' ? (<img width={"32px"} src={enImg} />) : (<img width={"32px"} src={frImg} />)}
+                    <span className="ms-3">{t('footerText')}</span>
+                  </button>
+                )
+              }
+
+              {
+                isTechPage && (
+                  <button onClick={handleLanguageChange} className="bg-black border-0 text-white">
+                    {currentLanguage === 'en' ? (<img width={"32px"} src={enImg} />) : (<img width={"32px"} src={frImg} />)}
+                    <span className="ms-3">{t('footerText')}</span>
+                  </button>
+                )
+              } */}
             </div>
           </div>
         </div>

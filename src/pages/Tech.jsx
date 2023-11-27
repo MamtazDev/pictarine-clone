@@ -130,7 +130,7 @@ function Tech() {
           <div className="container">
             <div className={cardNumberClasses}>
               <div className="row">
-                {t("businessInfoTwo", {returnObjects: true}).map((data, id) => (
+                {t("businessInfoTwo", { returnObjects: true }).map((data, id) => (
                   <div className="col-lg-4">
                     <BusinessInfos
                       key={id}
@@ -173,7 +173,7 @@ function Tech() {
                   <h2 className="sobusiness mb-5">
                     {t('techTeamTitle9')}
                   </h2>
-                  {t("descriptionThree", {returnObjects: true}).map((data, id) => (
+                  {t("descriptionThree", { returnObjects: true }).map((data, id) => (
                     <Description
                       key={id}
                       img={data.img}
@@ -233,7 +233,7 @@ function Tech() {
                 </div>
               </div>
 
-              {t("problemSolvers", {returnObjects: true}).map((data, id) => {
+              {t("problemSolvers", { returnObjects: true }).map((data, id) => {
                 return (
                   <div className="col-lg-3 mb-5">
                     <ProblemSolvers
@@ -294,11 +294,7 @@ function Tech() {
             {t('joinTeamBtn')}
           </Link>
         </div>
-
-
       </div>
-
-
     </>
   );
 }
