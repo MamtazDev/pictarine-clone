@@ -13,7 +13,7 @@ import { useTranslation } from 'react-i18next';
 
 function Footer({ isProductPage, isTechPage }) {
 
-  const {t} = useTranslation()
+  const { t } = useTranslation()
 
   const [currentLanguage, setCurrentLanguage] = useState('fr');
 
@@ -90,8 +90,8 @@ function Footer({ isProductPage, isTechPage }) {
             <div className="container-trad-footer">
               <button onClick={handleLanguageChange} className={isProductPage ? "bg-black border-0" : "border-0 bg-white"}>
                 {currentLanguage === 'en' ? (<img width={"32px"} src={enImg} />) : (<img width={"32px"} src={frImg} />)}
+                <span className="ms-3">{t('footerText')}</span>
               </button>
-              <p>Passer en version anglais</p>
             </div>
           </div>
         </div>

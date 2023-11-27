@@ -1,8 +1,6 @@
 import "../styles/RejoinsNous.css";
 import "../App.css";
 import SliderRecrutment from "../components/SliderRecrutment";
-import sliderrecrutment from "../utils/sliderrecrutment.json";
-import diffpicta from "../utils/diffpicta.json";
 import DiffPicta from "../components/DiffPicta";
 import { Link } from "react-router-dom";
 import CarouselTeam from "../components/CarouselTeam";

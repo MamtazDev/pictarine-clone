@@ -1,13 +1,35 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import './MultiRowSlider.css'
 import { BsFileText } from "react-icons/bs";
 import { FiExternalLink } from "react-icons/fi";
 
 const MultiRowSlider = ({ name, des, location, cdi, pointsTitle, pointOne, pointTwo, pointThree, pointFour, link }) => {
+    const cardRef = useRef(null);
+    const [maxHeight, setMaxHeight] = useState(300);
+
+    useEffect(() => {
+        const updateMaxHeight = () => {
+            if (cardRef.current) {
+                const cardHeight = cardRef.current.clientHeight;
+                setMaxHeight((prevMaxHeight) => Math.max(prevMaxHeight, cardHeight));
+            }
+        };
+
+        // Update the maximum height when the component mounts or content changes
+        updateMaxHeight();
+
+        // Update the maximum height when the window is resized
+        window.addEventListener('resize', updateMaxHeight);
+
+        // Cleanup the event listener when the component unmounts
+        return () => {
+            window.removeEventListener('resize', updateMaxHeight);
+        };
+    }, [des, location, cdi, pointsTitle, pointOne, pointTwo, pointThree, pointFour, link]);
     return (
         <div className='multi_row_slider_wrapper me-4 mb-4'>
-            <div className='equal_height'>
-                <div className="mrs_content">
+            <div className='equal_height' >
+                <div className="mrs_content" ref={cardRef} style={{ height: maxHeight }}>
                     <div className="name_des mb-2">
                         <h3 className='name'>
                             {name}
@@ -57,13 +79,13 @@ const MultiRowSlider = ({ name, des, location, cdi, pointsTitle, pointOne, point
                         </ul>
                     </div>
                 </div>
-            </div>
 
-            <div className="link">
-                <a href={link} className=''>
-                    Lire Plus
-                    <FiExternalLink />
-                </a>
+                <div className="link">
+                    <a href={link} className=''>
+                        Lire Plus
+                        <FiExternalLink />
+                    </a>
+                </div>
             </div>
         </div>
     )

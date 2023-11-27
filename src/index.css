@@ -200,12 +200,22 @@ button {
 
 .multiRows_slider .slick-prev {
   position: absolute;
-  left: 45%;
+  left: 38%;
 }
 
 .multiRows_slider .slick-next {
   position: absolute;
-  right: 46%;
+  right: 40%;
+}
+
+@media(max-width: 990px) {
+  .multiRows_slider .slick-prev {
+    left: 20%;
+  }
+
+  .multiRows_slider .slick-next {
+    right: 20%;
+  }
 }
 
 .multiRows_slider .slick-dots {
@@ -222,7 +232,7 @@ button {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: absolute;
-  bottom: -1845%;
+  bottom: -2000%;
 }
 
 /* Custom CSS */
